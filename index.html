@@ -1073,9 +1073,6 @@
             document.querySelectorAll('#entity-modal-toggle button').forEach(b => b.classList.remove('active'));
             document.querySelector('#entity-modal-toggle button[data-metric="amt"]').classList.add('active');
 
-            // Draw chart
-            drawEntityChart(entData, 'amt');
-
             // Toggle handlers
             document.querySelectorAll('#entity-modal-toggle button').forEach(btn => {
                 btn.onclick = function() {
@@ -1085,8 +1082,12 @@
                 };
             });
 
+            // Show modal BEFORE drawing so the container has dimensions
             overlay.classList.add('visible');
             document.body.style.overflow = 'hidden';
+
+            // Draw chart after modal is visible
+            drawEntityChart(entData, 'amt');
         }
 
         function closeEntityDetail() {
