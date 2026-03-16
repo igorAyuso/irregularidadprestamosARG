@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/irregularidad_crediticia.html"
-    }
-  ]
-}
