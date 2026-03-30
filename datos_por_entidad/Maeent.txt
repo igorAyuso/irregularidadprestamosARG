@@ -1,0 +1,554 @@
+00007BANCO DE GALICIA Y BUENOS AIRES S.A.                                  
+00011BANCO DE LA NACION ARGENTINA                                          
+00014BANCO DE LA PROVINCIA DE BUENOS AIRES                                 
+00015INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.            
+00016CITIBANK N.A.                                                         
+00017BANCO BBVA ARGENTINA S.A.                                             
+00020BANCO DE LA PROVINCIA DE CORDOBA S.A.                                 
+00027BANCO SUPERVIELLE S.A.                                                
+00029BANCO DE LA CIUDAD DE BUENOS AIRES                                    
+00034BANCO PATAGONIA S.A.                                                  
+00044BANCO HIPOTECARIO S.A.                                                
+00045BANCO DE SAN JUAN S.A.                                                
+00065BANCO MUNICIPAL DE ROSARIO                                            
+00072BANCO SANTANDER ARGENTINA S.A.                                        
+00083BANCO DEL CHUBUT S.A.                                                 
+00086BANCO DE SANTA CRUZ S.A.                                              
+00093BANCO DE LA PAMPA SA                                                  
+00094BANCO DE CORRIENTES S.A.                                              
+00097BANCO PROVINCIA DEL NEUQUÉN SOCIEDAD ANÓNIMA                          
+00131BANK OF CHINA LIMITED SUCURSAL BUENOS AIRES                           
+00143BRUBANK S.A.U.                                                        
+00147BIBANK S.A.                                                           
+00150Banco GGAL SA                                                         
+00165JPMORGAN CHASE BANK, NATIONAL ASSOCIATION (SUCURSAL BUENOS AIRES)     
+00191BANCO CREDICOOP COOPERATIVO LIMITADO                                  
+00198BANCO DE VALORES S.A.                                                 
+00247BANCO ROELA S.A.                                                      
+00254BANCO MARIVA S.A.                                                     
+00259BANCO BMA S.A.U.                                                      
+00266BNP PARIBAS                                                           
+00268BANCO PROVINCIA DE TIERRA DEL FUEGO                                   
+00269BANCO DE LA REPUBLICA ORIENTAL DEL URUGUAY                            
+00277BANCO SAENZ S.A.                                                      
+00281BANCO MERIDIAN S.A.                                                   
+00285BANCO MACRO S.A.                                                      
+00299BANCO COMAFI SOCIEDAD ANONIMA                                         
+00300BANCO DE INVERSION Y COMERCIO EXTERIOR S.A.                           
+00301BANCO PIANO S.A.                                                      
+00305BANCO JULIO SOCIEDAD ANONIMA                                          
+00309BANCO RIOJA SOCIEDAD ANONIMA UNIPERSONAL                              
+00310BANCO DEL SOL S.A.                                                    
+00311NUEVO BANCO DEL CHACO S. A.                                           
+00312BANCO VOII S.A.                                                       
+00315BANCO DE FORMOSA S.A.                                                 
+00319BANCO CMF S.A.                                                        
+00321BANCO DE SANTIAGO DEL ESTERO S.A.                                     
+00322BANCO INDUSTRIAL S.A.                                                 
+00330NUEVO BANCO DE SANTA FE SOCIEDAD ANONIMA                              
+00331BANCO CETELEM ARGENTINA S.A.                                          
+00332BANCO DE SERVICIOS FINANCIEROS S.A.                                   
+00338BANCO DE SERVICIOS Y TRANSACCIONES SAU                                
+00339RCI BANQUE S.A.                                                       
+00340BACS BANCO DE CREDITO Y SECURITIZACION S.A.                           
+00341BANCO MASVENTAS S.A.                                                  
+00384UALA BANK S.A.U.                                                      
+00386NUEVO BANCO DE ENTRE RÍOS S.A.                                        
+00389BANCO COLUMBIA S.A.                                                   
+00426BANCO BICA S.A.                                                       
+00431BANCO COINAG S.A.                                                     
+00432BANCO DE COMERCIO S.A.                                                
+00435BANCO SUCREDITO REGIONAL S.A.U.                                       
+00448BANCO DINO S.A.                                                       
+10303F.F PRIVADO YATASTO                                                   
+10494F.F. Y DE ADM. CHACO-ACTIVOS FINANCIEROS                              
+10500F.F. Y DE ADM. LA RIOJA REFINANCIAMIENTO DEL SECTOR PROD.             
+10556FF PRIVADO CREVAL                                                     
+10608F.F. Y DE ADM FIDEICOMISO DEUDORES AGROP BNA ENTRE RIOS               
+10628F.F. PRIVADO ASSET RECOVERY 5                                         
+10692F.F. PRIVADO FRANKEL                                                  
+10812F.F. Y DE ADM REFINANCIAMIENTO DEUDORES AGROP PCIA DE RIO NEGRO       
+10903FF PRIVADO GESTIÓN DE ACTIVOS IV                                      
+10914RECUPERO DE ACTIVOS FIDEICOMISO FINANCIERO                            
+10915F.F. CENTURIA                                                         
+10916FF CFA CRÉDITOS I                                                     
+10917FF CFA CRÉDITOS II                                                    
+10918FF CFA CRÉDITOS III                                                   
+10921Flex Fideicomiso Financiero                                           
+10922Maipú Fideicomiso Financiero                                          
+10923F.F. PRIVADO GREEN LIGHT                                              
+40011BELAT CROWDLENDING ARGENTINA                                          
+44077COMPAÑIA FINANCIERA ARGENTINA S.A.                                    
+44088VOLKSWAGEN FINANCIAL SERVICES COMPAÑIA FINANCIERA S.A.                
+44092FCA COMPAÑIA FINANCIERA S.A.                                          
+44093GPAT COMPAÑIA FINANCIERA S.A.U.                                       
+44094MERCEDES-BENZ COMPAÑÍA FINANCIERA ARGENTINA S.A.                      
+44095ROMBO COMPAÑÍA FINANCIERA S.A.                                        
+44096JOHN DEERE CREDIT COMPAÑÍA FINANCIERA S.A.                            
+44098PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A.                        
+44099TOYOTA COMPAÑÍA FINANCIERA DE ARGENTINA S.A.                          
+45030NARANJA DIGITAL COMPAÑÍA FINANCIERA S.A.U.                            
+45056MONTEMAR COMPAÑIA FINANCIERA S.A.                                     
+45072REBA COMPAÑIA FINANCIERA S.A.                                         
+50001ACINDAR PYMES SGR                                                     
+50002AFFIDAVIT SGR                                                         
+50003AGROAVAL SGR                                                          
+50004ARGENPYMES SGR                                                        
+50005AVAL FEDERAL SGR                                                      
+50006AVAL GANADERO SGR                                                     
+50007AVAL RURAL SGR                                                        
+50009CAMPO AVAL SGR                                                        
+50010Poder SGR                                                             
+50011CUYO AVAL SGR                                                         
+50012DON MARIO SGR                                                         
+50013GARANTÍA DE VALORES SGR                                               
+50014GARANTIZAR SGR                                                        
+50015INTEGRA PYMES SGR                                                     
+50017PROMOVER SGR                                                          
+50018POTENCIAR SGR                                                         
+50020AFB AVALES S.G.R.                                                     
+50021AVAL AR SGR                                                           
+50022PYME AVAL SGR                                                         
+50023UNION SGR                                                             
+50024AVAL FERTIL SGR                                                       
+50025AVALES DEL CENTRO SGR                                                 
+50026CRECER SGR                                                            
+50027AFIANZAR SGR                                                          
+50028AVALUAR S.G.R.                                                        
+50030Confiables S.G.R.                                                     
+50032RESILIENCIA SGR                                                       
+50033Crédito Argentino S.G.R.                                              
+50034Rig Avales S.G.R                                                      
+50035Conaval S.G.R.                                                        
+50036Móvil S.G.R.                                                          
+50037FIDEM SGR                                                             
+50038INNOVA SGR                                                            
+50039FINTECH SGR                                                           
+50040MILLS SGR                                                             
+50041ALIANZA S.G.R.                                                        
+50042SOLIDUM S.G.R.                                                        
+50043Neuquèn Pymes SGR                                                     
+50044Trend SGR                                                             
+50046Argentina Ciudad S.G.R.                                               
+51001FONDO DE GARANTÍAS BUENOS AIRES SAPEM (FOGABA SAPEM)                  
+51002FONDO DE GARANTÍAS DEL CHACO (FOGACH)                                 
+51003FONDO DE GARANTÍAS ARGENTINO                                          
+51004Fondo de Garantía Público La Rioja Sociedad Anónima Unipersonal       
+51005Garantía San Juan SAPEM                                               
+51006Fondo de garantía para el Desarrollo Fueguino S.A.P.E.M. (FODADEF)    
+51007Fideicomiso de Afectación Específica para Garantizar Pymes No Sujetas 
+51008Fondo de Garantías Entre Ríos S.A.P.E.M. (FO.GA.ER. S.A.P.E.M.)       
+51009Fideicomiso de Garantías Pampeanas (FoGaPam)                          
+51011FONDO DE GARANTIA CFI                                                 
+51012Fondo específico de riesgo fiduciario de la "Provincia de Santa Fe"   
+51014Fondo de Garantía Catamarca Sociedad Anónima con Participación Estatal
+55001Accicom S.A.                                                          
+55002AMEPORT Mutual del Personal del Estado Nacional Provincial Municipal y
+55003Asociación Mutual Centro Litoral                                      
+55004Asociación Mutual de la Economía Solidaria                            
+55005Asociación Mutual de las Fuerzas Armadas y Seguridad (AMFAYS)         
+55006Asociación Mutual del Litoral 17 de Enero                             
+55008Asociación Mutual Unión Solidaria                                     
+55009Carsa S.A.                                                            
+55011Cetrogar S.A.                                                         
+55012CFN SRL                                                               
+55013Cierto Argentina S.A.                                                 
+55015Coppel S.A.                                                           
+55017Cooperativa de Crédito, Consumo y Servicios Sociales La Plata Ltda.   
+55018Cooperativa de Provisión de Obras y Servicios Publicos y de Créditos C
+55020Palmares Cooperativa de Vivienda, Crédito, Consumo y Servicios Sociale
+55023Credifácil S.A.F. y M.                                                
+55024CREDICUOTAS CONSUMO S.A.                                              
+55025Cuotitas S.A.                                                         
+55026Decréditos S.A.                                                       
+55027ELECTRONICA MEGATONE SRL                                              
+55028Favanet S.A.                                                          
+55030Fravega S.A.C.I. e I.                                                 
+55034Hogar Total S.A.                                                      
+55038Mandatos Especiales S.A.                                              
+55040N&F Capital Markets S.A.                                              
+55041Naldo Lombardi S.A.                                                   
+55042Plural Cooperativa de Crédito, Consumo y Vivienda Ltda.               
+55043Provincia Leasing S.A.                                                
+55046Schejter y Schejter S.A.                                              
+55048Sicom S.A.                                                            
+55049Surfinan S.A.                                                         
+55052Asociación Mututal 18 de Julio                                        
+55053Casa Luis Chemes S.A.                                                 
+55054Crédito Directo S.A.                                                  
+55057Mutual Integral de Servicios                                          
+55058PVCRED S.A.                                                           
+55060Gran Cooperativa de Crédito, Vivienda, Consumo y Servicios Sociales Li
+55061Radio Sapienza S.A.                                                   
+55063Uninverc S.A.                                                         
+55067Amargot Créditos y Servicios S.A.                                     
+55068Hendel Hogar S.A.                                                     
+55070PRO MUJER SERVICIOS FINANCIEROS SA                                    
+55073Oportunidad Microfinanciera Latinoamericana OMLA S.A.                 
+55075IDUN INVERSIONES S.A.                                                 
+55076Grupo Prestafácil S.A.                                                
+55077Asociación Mutual de Escribanos                                       
+55080DAP Cooperativa de Crédito y Consumo Ltda.                            
+55081Versus Goliath Argentina S.A.                                         
+55082Asociación Mutual de Pensionados Sociales Ley 5110                    
+55083AGL CAPITAL S.A.                                                      
+55085Moni Online S.A.                                                      
+55086Asociación Mutual Asis                                                
+55087Préstamos Bam S.A.                                                    
+55088Asociación Mutual de Docentes de la Provincia del Chaco               
+55090DILCAR S.A.                                                           
+55091CREDIAR S.A.                                                          
+55092Dante Tanino Hogar S.A.                                               
+55093FINANCOMP S.A.                                                        
+55094Genesys S.A.                                                          
+55095CRENAC S.A.                                                           
+55096FINANCIACIONES CUYO S.A.                                              
+55098CONSUMO S.A.                                                          
+55100BAZAR AVENIDA S.A.                                                    
+55105Ceibo Créditos S.A.                                                   
+55106Asociación Mutual Net                                                 
+55107ARGENCRED S.A.                                                        
+55109Credikot COOPERATIVA DE VIVIENDA, CRÉDITO Y CONSUMO  LTDA             
+55110Asociación Mutual Vital                                               
+55111Clank S.A.                                                            
+55115Asociación Mutual Desarrollo Regional                                 
+55118Cooperativa de Vivienda, Crédito y Consumo VIXA LTDA                  
+55120Ebucar S.A.                                                           
+55121Asociación Mutual Malvinas Argentinas                                 
+55123Cooperativa 2001 de Vivienda, Crédito y Consumo Ltda.                 
+55124Plusrasgo S.A.                                                        
+55125Cooperativa de Vivienda, Crédito, Consumo y Servicios Sociales Candela
+55128Crediser Argentina S.A.                                               
+55129OK CONSUMER FINANCE S.A.                                              
+55130Mutual de Jubilados, Retirados y Pensionados Provinciales             
+55132TIENDAJUBILO S.A.                                                     
+55133Rotas S.A.                                                            
+55134MAXIHOGAR SRL                                                         
+55136Vento Capital S.A.                                                    
+55137Cooperativa de Crédito, Consumo, Vivienda y Servicios Sociales Videgar
+55139Concretar Coop. de Crédito, Consumo y Vivienda Ltda                   
+55141AD CREDITOS S.A.                                                      
+55142Emprendimiento La Luisina SRL                                         
+55143Mutual Asistencial y Social                                           
+55144ASOCIACION MUTUAL 23 DE SEPTIEMBRE                                    
+55146LIPACO MERCANTIL S.A.                                                 
+55148Collins S.A.                                                          
+55149INDO S.A.                                                             
+55151PREVER COOPERATIVA DE CRÉDITO Y CONSUMO LTDA                          
+55152Asociación Mutual de protección Familiar                              
+55156UNIGESTION SA                                                         
+55158San Cristóbal Bienes Raíces S.A.                                      
+55159TCC Cooperativa de Crédito, Consumo y Vivienda Limitada               
+55160Arrayanes Cooperativa de Vivienda, Crédito y Consumo                  
+55162Aquiprestamos.com S.A.                                                
+55163FF Capital Group S.A.                                                 
+55166Waynicoin S.A.                                                        
+55170Cooperativa de Viv., Cred. y Con. Amigal Ltda.                        
+55172FINARES S.A.                                                          
+55175Cooperativa Interamericana de Credito, Vivienda y Consumo Limitada    
+55176Trend Capital S.A.                                                    
+55177Catalinas Cooperativa de Crédito, Consumo y Vivienda Ltda.            
+55178Cooperativa de Crédito y Vivienda Unicred Ltda.                       
+55182Crediserv S.A.                                                        
+55183Nobel Cooperativa de Crédito, Vivienda y Servicio de Transporte Ltda. 
+55185Cooperativa de Crédito, Consumo y Vvienda Fincredit Ltda              
+55186Confinance S.A.                                                       
+55188Cooperativa de Vivienda, Crédito y Consumo del Litoral Ltda           
+55189Compañía General de Finanzas S.A.                                     
+55190Gestisur Cooperativa de crédito y vivienda Ltda                       
+55192G Y F Factoring S.A.                                                  
+55194Policredito Coop. Limitada de Crédito y Vivienda.                     
+55195Libertador Factoring S.A.                                             
+55196Cooperativa Concred de crédito y vivienda Ltda.                       
+55197Invercoop Cooperativa de Crédito, Consumo y Vivienda Limitada         
+55198Cooperativa de Vivienda Crédito y Consumo Concepción Limitada         
+55200Cooperativa de Vivienda, Crédito y Consumo para el Desarrollo Ltda (CO
+55201Credit & Investment SRL                                               
+55202Depsa Valores S.A.                                                    
+55204Development Corp S.A.                                                 
+55207Mills Capital S.A.                                                    
+55208GS Negocios S.A.                                                      
+55210Del País Cooperativa de Crédito, Consumo y Vivienda Ltda.             
+55213Multiplycard S.A.                                                     
+55214Credinegocios Moscasil S.A.                                           
+55217Vilco Inversiones S.A.                                                
+55219Cooperativa de Vivienda Crédito y Consumo La Integradora Limitada     
+55222BFA Inversiones y Finanzas S.A.                                       
+55225EXI S.A.                                                              
+55226MSM Leasing S.A.                                                      
+55227Mutual Federada 25 de junio SPR                                       
+552341° de Julio Cooperativa de Vivienda, Crédito y Consumo Ltda           
+55235Valerza S.A.                                                          
+55241Joamar S.A.                                                           
+55242MG-Group S.A.                                                         
+55244Mutual del agro, la industria y el comercio de Santa Fe               
+55245CUOTAFACIL SA                                                         
+55251BR CAPITAL S.A.                                                       
+55255DINEFA S.R.L.                                                         
+55256MSA CREDITOS S.A.                                                     
+55258HOMYT S.A                                                             
+55265CRE-DIN S. A.                                                         
+55266CRÉDITO DEL VALLE S.A.                                                
+55267ACUATRO S.A.                                                          
+55269SERVICIOS OSTENDE SRL                                                 
+55272CRÉDITOS ESCOBAR S.A                                                  
+55273INSIGHT GROUP SA                                                      
+55277ASOCIACION MUTUAL FIAT CONCORD                                        
+55279SOLVENTA SAS                                                          
+55281ASOCIACION MUTUAL CELESOL DE SERVICIOS INTEGRALES Y EDUCATIVOS        
+55282MINS LFE SAS                                                          
+55283S&S SOLUTIONS SA                                                      
+55287COBRO FACIL SRL                                                       
+55288GLOBAL CAPITAL MANAGEMENT SA                                          
+55289UNION PROVINCIAL ASOCIACION MUTUAL                                    
+55292TRANSCON S.A.U.                                                       
+55293CREDIFAX S.A.                                                         
+55294CREDITECH SA                                                          
+55295CREDITAM LIMITADA S.A.                                                
+55296SANTANDER CONSUMER SA                                                 
+55298ESPACIO DIGITAL S.A                                                   
+55300Buenos Aires Creditos SA                                              
+55301CRESCENS S.A                                                          
+55302TRAYECTORIA LEASING S.A.U.                                            
+55304TU ADELANTO SA                                                        
+55307RED DE PRESTAMOS SA                                                   
+55309MUTUAL DEL PERSONAL DEL MINISTERIO DE EDUCACION Y JUSTICIA DE LA NACIO
+55310MACRO SOLUTIONS SA                                                    
+55312ABAN DIGITAL S.A.                                                     
+55313MICODEMO S.A.                                                         
+55314REGGIO DI CALABRIA S.R.L.                                             
+55315FINANCRED SA                                                          
+55316KALIMA S.A.                                                           
+55317BARSATEX S.A.                                                         
+55318DLL LEASING ARGENTINA S.A.                                            
+55319AGCO CAPITAL ARGENTINA S.A.                                           
+55320POTSDAM S.A.                                                          
+55321SOSER SA                                                              
+55323SOLUCIONES INTEGRALES S.A.                                            
+55328LOGINCREDIT S.A.                                                      
+55329ALAU TECNOLOGIA S. A. U.                                              
+55330CREDILOW S.A.                                                         
+55331UNION DEL PERSONAL CIVIL DE LA PROVINCIA DEL CHACO                    
+55333El Nexo S.A.                                                          
+55334VALUARTE SRL                                                          
+55336OSCAR BARBIERI S.A.                                                   
+55338TRESSFEN SA                                                           
+55339MAEBA S.R.L.                                                          
+55340FINANPRO S.R.L.                                                       
+55341PROAVALAR S.R.L                                                       
+55342Asistir Cooperativa de Vivienda, Credito, Consumo y Servicios Sociales
+55344JALIN S.A.                                                            
+55345CSPB INVERSIONES SA                                                   
+55346Number S.A.                                                           
+55349AGILCRED S.A.                                                         
+55352Cooperativa de vivienda crédito y consumo San José Ltda               
+55353VIKA 2010 S.A.                                                        
+55355FULLCREDIT SA                                                         
+55356G10 EMPRENDIMIENTOS SA                                                
+55357CREDIBEL S.A.                                                         
+55359DHF SA                                                                
+55360Credi-Full S.A.                                                       
+55361DESARROLLOS AYTER S.A.                                                
+55364CONFICRED SA                                                          
+55366CYAP NOW S.A.                                                         
+55367INVERSORA DEL NORTE S.A.                                              
+55370CREDIL S.R.L.                                                         
+55371ASOCIACION MUTUAL EMLEADOS DE COMERCIO DE ROSARIO                     
+55374EJS S.A.                                                              
+55375COOP. DE CRED. CONS. Y VIV. MASELE LTDA                               
+55376COMERPYSRL                                                            
+55377Clave Creditos S.A.                                                   
+55381CREDIGOL S.A.                                                         
+55382UFINAN SA                                                             
+55385Mifloder SAS                                                          
+55386WIBOND SAS                                                            
+55387Asociacion Mutual Integracion Solidaria Villa Maria "AMISVIMA"        
+55388CREDLAP S.A.                                                          
+55389SI CAPITAL                                                            
+55391QUICK CREDIT S.A.                                                     
+55392NEGOCIOS FINANCIEROS CREDILOMAS S.A.                                  
+55393SEILOP S.R.L.                                                         
+55395CIGANDA & MASARIE                                                     
+55396MERIDIANO NORTE S.A.                                                  
+55397BELMONT CAPITAL S.A.                                                  
+55399MAMLUSENA S.A.                                                        
+55400MICRO SISTEMAS S. A. U.                                               
+55403FACILCRED S.A.                                                        
+55404THE RAINBOW FAMILY S.A.                                               
+55405Oneri Bilancio S.A.                                                   
+55408SCANIA CREDIT ARGENTINA S.A.U.                                        
+55409Finet SA                                                              
+55411CREDITAN COOPERATIVA DE VIVIENDA CREDITO Y CONSUMO LTDA               
+55412Delivery Hero Financial Services SA                                   
+55413ASOCIACIÓN MUTUAL PILARENSES                                          
+55415BLM SERVICIOS SA                                                      
+55416FLODER ARGENTINA SA                                                   
+55419Daneio SA                                                             
+55420MARIAS CAPITAL SA                                                     
+55424SOLUCIONES FINANCORP SA                                               
+55425MOOVITECH S.A.                                                        
+55429POLO VALORES S.A.                                                     
+55432LUCSE INVERSIONES S.A.                                                
+55435PARABENS TRUST S.A.                                                   
+55436POWERFIN SA                                                           
+55439MUTUAL DE PORTEÑA ASOCIACION CULTURAL Y DEPORTIVA                     
+55442LA LOMITA CAPITAL S.A.                                                
+55443MVT Finanzas S.A.                                                     
+55444CREDISE S.A.                                                          
+55445BLM DESARROLLOS SA                                                    
+55449FIDEICOMISO PRIVADO DE ADMINISTRACION CENTAURUS                       
+55450PRESTY SRL                                                            
+55453Cooperativa de Credito Consumo y Vivienda Baymor Ltda                 
+55454BIA SRL                                                               
+55456PREST SPC SAS                                                         
+55457MIGXION S.A.                                                          
+55459Admiral Finance SA                                                    
+55462CORVALAN 1160 SA                                                      
+55463MILLASA S.A.                                                          
+55464MUTUAL DE INTEGRANTES DEL PODER JUDICIAL                              
+55465Dar Prestamos S.A.                                                    
+55466AXXIA LENDING S.A.                                                    
+55469BOCAS DEL TORO S.A.                                                   
+55470CAMELUS S.A.                                                          
+55472SUMA INVERSIONES S.A.                                                 
+55473GrupoCDG SA                                                           
+55474FIDEICOMISOS MANDATOS E INVERSIONES SA                                
+55477MERITE S.A.                                                           
+55479FIDUCIA ARGENTINA S.A.S.                                              
+55480RUMKALO S.R.L.                                                        
+55482Asociación Mutual de Ayuda Entre Asociados y Adherentes de Romang Futb
+55483Longcred S.A.                                                         
+55484Inclusión Financiera Integral SRL                                     
+55485G&T GESTIONES COMERCIALES S.A.                                        
+55486TODOPAY S.R.L.                                                        
+55487ASOCIACION MUTUAL PARA EL PERSONAL DEL PODER JUDICIAL Y TRABAJADORES I
+55488RIO FRANCO SA                                                         
+55490ASOCIACION MUTUAL DE ASOCIADOS DEL CLUB ATLETICO UNION                
+55492Asociación Mutual de Trabajadores Argentinos Estatales                
+55493OPENCRED SA                                                           
+55494Mifloder SAS                                                          
+55495SOCIEDAD DE CREDITO SA                                                
+55496Cash Online S.A.                                                      
+55497FINLATINA SA                                                          
+55498LANTI SA                                                              
+55501DIE ZUKUNFT SA                                                        
+55502ATYLIUM FINANCE GROUP SA                                              
+55503LA PLATA FIUME D ORO S. A.                                            
+55505Cash Market SA                                                        
+55506CYFSA S.A.                                                            
+55507FINANZAS DIGITALES SAS                                                
+55510FINANLEASE S.A                                                        
+55511ASOCIACION MUTUAL 9 DE JULIO OLIMPICO FREYRE                          
+55512TRADING PROFIT S.A.                                                   
+55513IXPAY SA                                                              
+55514CARTASUR CARDS S.A.U                                                  
+55516M&B COMPANY S. A. S.                                                  
+55520Asociación Mutual Trabajadores del Hospital de Pediatria SAMIC "Profes
+55523COMERCIAL FERSA SRL                                                   
+55524ASOCIACION MUTUAL 7 DE AGOSTO                                         
+55525ASOCIACION MUTUAL GRAL J JOSE DE URQUIZA                              
+55526Asociacion Mutual Progreso Entrerriano                                
+55534Mutual 22 de septiembre                                               
+55538CORDOBA VALORES S.A.                                                  
+55539FRANKFURT S.A.                                                        
+55544YOLO CASH S.A.                                                        
+55545GZM SOLUCIONES S.A                                                    
+55547sistemas unificados de credito dirigido SA                            
+55554PRESTACIONES S.A.                                                     
+55558GRUPO SACAR S.A.                                                      
+55561TJS CAPITAL S.A.                                                      
+65203CRÉDITO REGIONAL COMPAÑÍA FINANCIERA S.A.U.                           
+70101AMERICAN EXPRESS ARGENTINA S.A.                                       
+70116SISTEMAS UNIFICADOS DE CREDITO DIRIGIDO S.A                           
+70140COTO CENTRO INTEGRAL DE COMERCIALIZAC SA                              
+70141YPF S.A.                                                              
+70142ALARFIN S.A.                                                          
+70147CENCOSUD S.A.                                                         
+70154TELEPEAJE S.A.                                                        
+70166PRESTAMAS S.A.                                                        
+70168Findi S.A.                                                            
+70210ITALCRED S.A.                                                         
+70212CREDI-PAZ S.A.                                                        
+70218CARTASUR CARDS S.A.U                                                  
+70224TARJETAS DEL MAR S.A.                                                 
+70228SANTA MONICA S.A.                                                     
+70229CONTAR S.A.                                                           
+70231MUTUAL DE ASOC Y ADHER CLUB SPORTS SALTO                              
+70234NUEVA CARD S.A.                                                       
+70239FERTIL FINANZAS S.A.                                                  
+70248FAVACARD S.A                                                          
+70252JUCARD JUNIN S.R.L.                                                   
+70256EUROCRED S.A.                                                         
+70257TARTAN S.A.                                                           
+70268Asociación Mutual 20 de Julio                                         
+70269Credinos Cooperativa de Vivienda, Crédito, Consumo, Servicios Asistenc
+70270Asociación Mutual Club Social Deportivo Ascensión                     
+70301Tarjeta Pampeana S.A                                                  
+70407TALOR SOCIEDAD COLECTIVA                                              
+70408TARJETA NARANJA S.A.                                                  
+70411TEVISAL S.A.                                                          
+70412Zafiro S.A.                                                           
+70413VILLTER S.R.L.                                                        
+70414CLEMAR DOMINGO ROSSO                                                  
+70420Corfa Servi S.R.L.                                                    
+70421MUTUAL COYSPU                                                         
+70424Tarjeta PL S.A.                                                       
+70429MUTUAL DE LAS COMUNIDADES                                             
+70430ASOC. MUTUAL DEL CLUB ALMAFUERTE DE LAS VARILLAS                      
+70433SISCOM S.R.L.                                                         
+70434Coincidir S.A.                                                        
+70503LOCRED SRL                                                            
+70603COOP SERV ADM VTAS CRED Y CRED GUIA LTDA                              
+70802S.A. CLUB DEL ESTE                                                    
+70803SISTEMA DE CREDITO DE ENTRE RIOS S.A.                                 
+70805DILFER S.A.                                                           
+70806EMPRENDER S.A.                                                        
+70808Caja Municipal de Préstamos Sociedad de Economía Mixta                
+70903Única compañía de Crédito S.A.                                        
+71101NOA CARD S.A.                                                         
+71103GLOBAL S.R.L.                                                         
+71202EMPRESUR S.A.                                                         
+71204Crédito Móvil S.A.                                                    
+71302CUMAR S.A.                                                            
+71402CENTRO CARD S.A.                                                      
+71605AVALON CREDITOS PERSONALES S.A.                                       
+71801DATA 2000 S.A.                                                        
+71803VISION S.A.                                                           
+72101ASOC MUT AYUDA ASOC ADHER CLUB ATL UNION                              
+72102ASOCIACION MUTUAL DEL CLUB A. ARGENTINO                               
+72103CLUB ATLETICO SAN JORGE MUTUAL Y SOCIAL                               
+72104MUTUAL SOCIOS ASOC MEDIC ROSARIO                                      
+72106ASOCIACION MUTUAL VENADO TUERTO                                       
+72112ASOC MUTUAL SOC CTRO EC CAÑADA DE GOMEZ                               
+72113MUTUAL ENTRE ASOC COOPER MUTUAL PATRONAL                              
+72117ASOC MUT CONSEJ ARROYOS COOP EMP MULTIPL                              
+72123SOCIEDAD ARG DE SOCORROS MUTUO CORONDA                                
+72126CREDISOL S.A.                                                         
+72128ASOCIACION MUTUAL CLUB COLON DE SAN JUSTO                             
+72131Asociación Mutual del Personal Jerárquico de Bancos Oficiales Nacional
+72132Asociación Mutual de Ayuda entre Asociados y Adherentes del Club Depor
+72133CREDIFIAR S.A.                                                        
+72134Asociación Mutual de Ayuda entre Asociados y Adherentes del Club Atlét
+72135Asociación Mutual PYME RURAL                                          
+72136Asociación Mutualista del Club Central San Carlos                     
+72303CREDIMAS S.A.                                                         
+72304TARJETA TITANIO S.A.                                                  
+72306VALLE FERTIL S.A.                                                     
+72307CAJA POPULAR DE AHORROS PCIA DE TUCUMAN                               
+72308CASTILLO S.A.C.I.F.I.A.                                               
+72501TDF S.A.                                                              
+72607FIRENZE COOPERATIVA DE CRÉDITO, CONSUMO, VIVIENDA, TURISMO Y SERVICIOS
+72613NORYSUR SOCIEDAD ANONIMA                                              
+72614MUTUAL DE DOCENTES DE NEUQUEN                                         
+72616CORDOBA VALORES S.A.                                                  
+72618ASOCIACION MUTUAL DE ASOCIADOS Y ADHERENTES DEL CENTRO JUVENIL SPORTIV
+72622ASOCIACION MUTUAL SANTA AGUSTINA                                      
+72624JASIDIM S.A.                                                          
+72626INC SERVICIOS FINANCIEROS S.A.S.                                      
+72630FINANROL SA                                                           
+72631COOPERATIVA DE PROVISION DE BIENES Y SERVICIOS ALLEN LTDA             
+72632Mifloder SAS                                                          
+72633COOPERATIVA FARO LTDA                                                 
+72634MERCADOLIBRE S.R.L.                                                   
+72638Pago Virtual del Sur S.A.                                             
+72639SILOHUB ARGENTINA S.A.S.                                              
