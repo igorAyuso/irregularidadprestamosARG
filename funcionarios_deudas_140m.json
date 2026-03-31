@@ -1,0 +1,2109 @@
+{
+  "threshold_millions": 140,
+  "total_cuits_checked": 3332,
+  "cuits_with_debts": 3144,
+  "above_threshold_individual": 90,
+  "above_threshold_accumulated": 95,
+  "funcionarios": [
+    {
+      "nombre": "Pedro Juan INCHAUSPE",
+      "cuit": "20286427503",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Banco Central de la República Argentina",
+      "deuda_total_millones": 601.68,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 527.32
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 63.66
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 10.23
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.48
+        }
+      ]
+    },
+    {
+      "nombre": "Federico Matías FURIASE (AdH)",
+      "cuit": "20296972313",
+      "cargo": "Secretario/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Secretaría de Finanzas",
+      "deuda_total_millones": 553.48,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 408.69
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 119.54
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 25.19
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.05
+        }
+      ]
+    },
+    {
+      "nombre": "María Valentina FERNÁNDEZ",
+      "cuit": "27331594410",
+      "cargo": "Subdirector/a",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección de Recursos Humanos",
+      "deuda_total_millones": 522.97,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 522.97
+        }
+      ]
+    },
+    {
+      "nombre": "Felipe NUÑEZ",
+      "cuit": "20390283009",
+      "cargo": "Director/a Titular",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Banco de Inversión y Comercio Exterior S.A.",
+      "deuda_total_millones": 478.97,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 475.24
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.72
+        }
+      ]
+    },
+    {
+      "nombre": "Leandro Horacio MASSACCESI (AdH)",
+      "cuit": "20302256056",
+      "cargo": "Miembro en representación del Ministerio de Capital Humano",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Comisión Nacional de Actividades Espaciales",
+      "deuda_total_millones": 441.9,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 439.14
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 1.68
+        },
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 1.08
+        }
+      ]
+    },
+    {
+      "nombre": "Felipe BERÓN (AdH)",
+      "cuit": "20378442851",
+      "cargo": "Miembro en representación del Ministerio de Economía",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Comisión Nacional de Actividades Espaciales",
+      "deuda_total_millones": 439.88,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 439.88
+        }
+      ]
+    },
+    {
+      "nombre": "María Lucila MARSILI",
+      "cuit": "27329523735",
+      "cargo": "Director/a General",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Dirección General de Asuntos Jurídicos",
+      "deuda_total_millones": 424.94,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 423.84
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 1.1
+        }
+      ]
+    },
+    {
+      "nombre": "Manuel Ignacio CHAVARRÍA BERTOLAMI",
+      "cuit": "20346024594",
+      "cargo": "Consejero/a en representación de la República Argentina",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Entidad Binacional Yacyretá",
+      "deuda_total_millones": 423.56,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 423.56
+        }
+      ]
+    },
+    {
+      "nombre": "Facundo Federico DURAND",
+      "cuit": "20236016200",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Dirección Nacional para el Desarrollo de la Primera Infancia",
+      "deuda_total_millones": 368.17,
+      "deudas": [
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 366.51
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 1.66
+        }
+      ]
+    },
+    {
+      "nombre": "Agustín ROJO",
+      "cuit": "20322048204",
+      "cargo": "Subdirector/a General",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subdirección General Institucional",
+      "deuda_total_millones": 362.77,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 351.43
+        },
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 11.25
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.1
+        }
+      ]
+    },
+    {
+      "nombre": "Joaquín PÉREZ TRÍPODI",
+      "cuit": "20257902774",
+      "cargo": "Subdirector/a General",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subdirección General de Administración",
+      "deuda_total_millones": 355.84,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 350.71
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 5.12
+        }
+      ]
+    },
+    {
+      "nombre": "Luis María BUISEL",
+      "cuit": "20277921457",
+      "cargo": "Gerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Gerencia de Transmisión",
+      "deuda_total_millones": 342.67,
+      "deudas": [
+        {
+          "entidad": "[00044] BANCO HIPOTECARIO S.A.",
+          "situacion": "1",
+          "monto_millones": 340.14
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.53
+        }
+      ]
+    },
+    {
+      "nombre": "Martina COUNDUROS",
+      "cuit": "27329516305",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Departamento de Infraestuctura y Patrimonio",
+      "deuda_total_millones": 335.32,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 321.09
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 10.63
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 3.6
+        }
+      ]
+    },
+    {
+      "nombre": "Emiliano José MONGILARDI",
+      "cuit": "20325908603",
+      "cargo": "Director/a Titular",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "YPF S.A.",
+      "deuda_total_millones": 325.64,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 320.23
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 5.41
+        }
+      ]
+    },
+    {
+      "nombre": "Bárbara SCHROEDER",
+      "cuit": "23383965624",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Coordinación Financiera",
+      "deuda_total_millones": 280.24,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 278.41
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.71
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.62
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.36
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.14
+        }
+      ]
+    },
+    {
+      "nombre": "Gonzalo Andrés VIVAS",
+      "cuit": "20366880918",
+      "cargo": "Gerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Gerencia de Control de Gestión",
+      "deuda_total_millones": 276.04,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 275.11
+        },
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 0.9
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.03
+        }
+      ]
+    },
+    {
+      "nombre": "Daniel Eduardo ALONSO SOTO",
+      "cuit": "20282369517",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Subgerencia de Presupuesto y Contabilidad",
+      "deuda_total_millones": 268.87,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 267.17
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 1.7
+        }
+      ]
+    },
+    {
+      "nombre": "Matías Javier MANA",
+      "cuit": "20308602614",
+      "cargo": "Subsecretario/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subsecretaría de Relaciones Financieras Internacionales",
+      "deuda_total_millones": 256.38,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 255.43
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.95
+        }
+      ]
+    },
+    {
+      "nombre": "Damián CAGLIERIS",
+      "cuit": "20296866955",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subgerencia de Centro de Estudios Marítimos y Portuarios",
+      "deuda_total_millones": 254.52,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 248.51
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 5.78
+        },
+        {
+          "entidad": "[55002] AMEPORT Mutual del Personal del Estado Nacional Provincial Municipal y",
+          "situacion": "1",
+          "monto_millones": 0.23
+        }
+      ]
+    },
+    {
+      "nombre": "Paula Alejandra MUÑOZ AGNONE",
+      "cuit": "27260390037",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Salud",
+      "unidad": "Subgerencia de Control Prestacional de Agentes del Seguro de Salud",
+      "deuda_total_millones": 244.29,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 243.74
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 0.55
+        }
+      ]
+    },
+    {
+      "nombre": "Priscila LÓPEZ",
+      "cuit": "27330323308",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subgerencia de Normas de Seguros y Reaseguros",
+      "deuda_total_millones": 237.92,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 233.07
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 4.32
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.44
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.09
+        }
+      ]
+    },
+    {
+      "nombre": "Federico Matías RAMOS NAPOLI",
+      "cuit": "20382782845",
+      "cargo": "Secretario/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Secretaría de Asuntos Nucleares",
+      "deuda_total_millones": 237.71,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 218.11
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 17.58
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.02
+        }
+      ]
+    },
+    {
+      "nombre": "Sebastián Gabriel ROQUEJOFFRE",
+      "cuit": "20290759103",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Departamento de Control y Seguimiento de Prestaciones en Especie",
+      "deuda_total_millones": 237.09,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 232.74
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 1.9
+        },
+        {
+          "entidad": "[70101] AMERICAN EXPRESS ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.47
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.85
+        },
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.13
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Manuel GARZÓN",
+      "cuit": "20240163056",
+      "cargo": "Subsecretario/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subsecretaría de Programación Microeconómica",
+      "deuda_total_millones": 235.65,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 233.41
+        },
+        {
+          "entidad": "[70408] TARJETA NARANJA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.19
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.05
+        }
+      ]
+    },
+    {
+      "nombre": "Gabriela Beatriz FIGUEROA",
+      "cuit": "27314261963",
+      "cargo": "Secretario/a Letrado",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Secretaría Letrada de Vocalía 4° Nominación",
+      "deuda_total_millones": 232.77,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 232.71
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    },
+    {
+      "nombre": "Bárbara Noelia LANDABURO",
+      "cuit": "27301830462",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio del Interior",
+      "unidad": "Dirección de Desarrollo de Recursos Humanos",
+      "deuda_total_millones": 226.27,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 223.47
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.8
+        }
+      ]
+    },
+    {
+      "nombre": "Guillermo Patricio MADERO",
+      "cuit": "20252267825",
+      "cargo": "Titular",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Unidad Gabinete de Asesores",
+      "deuda_total_millones": 224.42,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 224.36
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    },
+    {
+      "nombre": "Federico PRESERN",
+      "cuit": "20278583342",
+      "cargo": "Jefe/a de División",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "División Servicio Técnico",
+      "deuda_total_millones": 221.23,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 214.97
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.95
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.31
+        }
+      ]
+    },
+    {
+      "nombre": "Carolina Soledad NUÑEZ",
+      "cuit": "27303620910",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Subgerencia de Recursos Humanos",
+      "deuda_total_millones": 220.72,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 220.72
+        }
+      ]
+    },
+    {
+      "nombre": "Marina SAWINSKI",
+      "cuit": "27333628487",
+      "cargo": "Responsable",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Responsable de Auditoría Legal",
+      "deuda_total_millones": 217.86,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 217.86
+        }
+      ]
+    },
+    {
+      "nombre": "Mariano Hernán BUGEIRO",
+      "cuit": "20302892009",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Departamento de Atención al Público",
+      "deuda_total_millones": 216.04,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 212.57
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 2.6
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.87
+        }
+      ]
+    },
+    {
+      "nombre": "Gonzalo Martín DEL HUERTO",
+      "cuit": "20394668118",
+      "cargo": "Subsecretario/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Subsecretaría de Relaciones Parlamentarias e Institucionales",
+      "deuda_total_millones": 213.37,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 211.39
+        },
+        {
+          "entidad": "[00143] BRUBANK S.A.U.",
+          "situacion": "1",
+          "monto_millones": 1.62
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.36
+        }
+      ]
+    },
+    {
+      "nombre": "Maria Natalia GADEA",
+      "cuit": "27304710514",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Departamento Observatorio Riesgos del Trabajo",
+      "deuda_total_millones": 210.03,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 210.03
+        }
+      ]
+    },
+    {
+      "nombre": "Javier Darío DEMARCHI",
+      "cuit": "23233415359",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Dirección de Auditoría Interna",
+      "deuda_total_millones": 205.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 202.74
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.21
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.55
+        }
+      ]
+    },
+    {
+      "nombre": "María Gabriela REAL",
+      "cuit": "27258332224",
+      "cargo": "Presidente/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Consejo Nacional de Coordinación de Políticas Sociales",
+      "deuda_total_millones": 205.03,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 203.02
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.43
+        },
+        {
+          "entidad": "[70101] AMERICAN EXPRESS ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.58
+        }
+      ]
+    },
+    {
+      "nombre": "Cynthia Anabella VITURRO",
+      "cuit": "27267694821",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Subgerencia de Asuntos Judiciales",
+      "deuda_total_millones": 204.74,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 204.74
+        }
+      ]
+    },
+    {
+      "nombre": "Melisa Carolina DEROSE",
+      "cuit": "27316768550",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Dirección Nacional de Asuntos Judiciales",
+      "deuda_total_millones": 199.62,
+      "deudas": [
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 199.52
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.1
+        }
+      ]
+    },
+    {
+      "nombre": "Marcelo BONGIORNO",
+      "cuit": "20269209187",
+      "cargo": "Auditor/a Adjunto/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Auditoría Adjunta Legal",
+      "deuda_total_millones": 199.09,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 195.27
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.75
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    },
+    {
+      "nombre": "Federico PINEDO",
+      "cuit": "20119854742",
+      "cargo": "Titular",
+      "jurisdiccion": "Ministerio de Relaciones Exteriores, Comercio Internacional y Culto",
+      "unidad": "Unidad Ejecutora Especial Temporaria 'UNIDAD G20'",
+      "deuda_total_millones": 196.64,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 195.43
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 1.21
+        }
+      ]
+    },
+    {
+      "nombre": "Hernán Esteban OLAETA",
+      "cuit": "20182722961",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Dirección Nacional de Política Criminal en Materia de Justicia y Legislación Penal",
+      "deuda_total_millones": 196.62,
+      "deudas": [
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 195.07
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 1.29
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.25
+        }
+      ]
+    },
+    {
+      "nombre": "Marina ANDREU",
+      "cuit": "27245292312",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Dirección de Centro Regional Patagonia Sur",
+      "deuda_total_millones": 196.59,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 196.39
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.19
+        }
+      ]
+    },
+    {
+      "nombre": "Paula Mariana ZARAGOZA",
+      "cuit": "27324375096",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Departamento de Relaciones Internacionales",
+      "deuda_total_millones": 195.15,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 192.2
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.95
+        }
+      ]
+    },
+    {
+      "nombre": "Víctor Hugo LEY",
+      "cuit": "20162265645",
+      "cargo": "Auditor/a Adjunto/a General",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Auditoría Interna Adjunta General",
+      "deuda_total_millones": 194.88,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 186.7
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 8.18
+        }
+      ]
+    },
+    {
+      "nombre": "Martín Miguel Jorge TREGLIA",
+      "cuit": "20141260287",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Coordinación de Veteranos de Guerra de Malvinas",
+      "deuda_total_millones": 194.12,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 194.02
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.1
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Alejandro HERRERA BLANCHARD",
+      "cuit": "20180828673",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Coordinación de Administración",
+      "deuda_total_millones": 193.83,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 193.83
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Andrés MUSTICCHIO",
+      "cuit": "20270194630",
+      "cargo": "Gerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Gerencia de Estudios y Estadísticas",
+      "deuda_total_millones": 192.89,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 190.69
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.2
+        }
+      ]
+    },
+    {
+      "nombre": "Silvina Paola VALDEVENITO",
+      "cuit": "27233846010",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección Nacional de Seguridad Ciudadana",
+      "deuda_total_millones": 190.29,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 93.45
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 92.95
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.85
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.04
+        }
+      ]
+    },
+    {
+      "nombre": "Luis Alejandro PELLENE",
+      "cuit": "20216312008",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Salud",
+      "unidad": "Departamento de Genética Experimental",
+      "deuda_total_millones": 189.11,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 185.74
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 2.97
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.4
+        }
+      ]
+    },
+    {
+      "nombre": "María Inés BROGIN ALBA",
+      "cuit": "27314694568",
+      "cargo": "Subsecretario/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Subsecretaría de Gestión Administrativa de Educación",
+      "deuda_total_millones": 184.83,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.2
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 8.64
+        }
+      ]
+    },
+    {
+      "nombre": "Guadalupe GONZALEZ SANGUINETI",
+      "cuit": "27290419226",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Dirección de Recursos Humanos",
+      "deuda_total_millones": 183.43,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 182.51
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.92
+        }
+      ]
+    },
+    {
+      "nombre": "Martín Facundo ROMERO OLIARO",
+      "cuit": "20270110542",
+      "cargo": "Director/a General",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Dirección General de Administración y Recursos Humanos",
+      "deuda_total_millones": 180.56,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 169.66
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 10.19
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.56
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "3",
+          "monto_millones": 0.09
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    },
+    {
+      "nombre": "Marcos Eszequiel SAYONI",
+      "cuit": "20269237253",
+      "cargo": "Gerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Gerencia de Tecnologías de la Información y Comunicación",
+      "deuda_total_millones": 180.25,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.89
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.35
+        }
+      ]
+    },
+    {
+      "nombre": "Mauricio Alejandro TOMASINO",
+      "cuit": "23276081349",
+      "cargo": "Director/a",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Dirección de Asuntos Jurídicos",
+      "deuda_total_millones": 179.13,
+      "deudas": [
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "3",
+          "monto_millones": 179.13
+        }
+      ]
+    },
+    {
+      "nombre": "Gonzalo SERRA LAHUNSEMBARNE",
+      "cuit": "20283846904",
+      "cargo": "Responsable",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Responsable de Auditoría Contable Financiera",
+      "deuda_total_millones": 178.49,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.54
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.95
+        }
+      ]
+    },
+    {
+      "nombre": "Mariana MANTECA ACOSTA CIAMBERLANI",
+      "cuit": "27190008318",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Salud",
+      "unidad": "Centro Nacional de Diagnóstico e Investigación en Endemo Epidemias - CEDIE",
+      "deuda_total_millones": 177.12,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.42
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.7
+        }
+      ]
+    },
+    {
+      "nombre": "Katherine ANDRICH",
+      "cuit": "27391616235",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Coordinación de Asuntos Inmobiliarios y Dominiales",
+      "deuda_total_millones": 174.78,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 170.95
+        },
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 3.83
+        }
+      ]
+    },
+    {
+      "nombre": "Ian Lionel VIGNALE (AdH)",
+      "cuit": "20389288323",
+      "cargo": "Secretario/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Secretaría Ejecutiva",
+      "deuda_total_millones": 174.61,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 174.61
+        }
+      ]
+    },
+    {
+      "nombre": "María Florencia RUÍZ DÍAZ",
+      "cuit": "27310619324",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Departamento de Relaciones Laborales",
+      "deuda_total_millones": 174.31,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 169.38
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 2.7
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.22
+        }
+      ]
+    },
+    {
+      "nombre": "Mariana Gabriela Malvina VENESIO",
+      "cuit": "27295011349",
+      "cargo": "Director/a General",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección General de Asuntos Jurídicos",
+      "deuda_total_millones": 174.23,
+      "deudas": [
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 169.71
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.64
+        },
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.54
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 0.34
+        }
+      ]
+    },
+    {
+      "nombre": "Hernán Darío CRUELLS",
+      "cuit": "20219123249",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Dirección de Análisis de Fiscalización Especializada",
+      "deuda_total_millones": 171.95,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 118.56
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 28.32
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 24.48
+        },
+        {
+          "entidad": "[70147] CENCOSUD S.A.",
+          "situacion": "1",
+          "monto_millones": 0.59
+        }
+      ]
+    },
+    {
+      "nombre": "Braian Emiliano CORES",
+      "cuit": "20331005240",
+      "cargo": "Secretario/a Letrado",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Secretaría Letrada de Vocalía 6° Nominación",
+      "deuda_total_millones": 171.85,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 170.95
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 0.72
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.18
+        }
+      ]
+    },
+    {
+      "nombre": "Emiliano Martín MOLINARI",
+      "cuit": "20291922938",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Coordinación de Administración, Legales y Recursos Humanos",
+      "deuda_total_millones": 171.54,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 167.46
+        },
+        {
+          "entidad": "[00086] BANCO DE SANTA CRUZ S.A.",
+          "situacion": "1",
+          "monto_millones": 2.46
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.47
+        },
+        {
+          "entidad": "[00299] BANCO COMAFI SOCIEDAD ANONIMA",
+          "situacion": "1",
+          "monto_millones": 0.11
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.04
+        }
+      ]
+    },
+    {
+      "nombre": "Carolina María IDIARTE",
+      "cuit": "27255987238",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Coordinación de Recursos Humanos y Organización",
+      "deuda_total_millones": 170.61,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 170.61
+        }
+      ]
+    },
+    {
+      "nombre": "Nicolás Alberto MATA",
+      "cuit": "23300864589",
+      "cargo": "Director/a General",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección General de Administración",
+      "deuda_total_millones": 169.69,
+      "deudas": [
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 164.8
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 4.89
+        }
+      ]
+    },
+    {
+      "nombre": "Antonio Matías MELI",
+      "cuit": "20281619803",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Coordinación de Acciones Judiciales de Trabajo, Empleo y Seguridad Social",
+      "deuda_total_millones": 169.57,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 148.45
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 12.44
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 7.22
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 1.12
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.33
+        }
+      ]
+    },
+    {
+      "nombre": "Diego Alejandro ARGIZ",
+      "cuit": "20255130235",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Subgerencia de Gestión Documental y Atención al Público",
+      "deuda_total_millones": 168.01,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 167.5
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.52
+        }
+      ]
+    },
+    {
+      "nombre": "María Cecilia DESCALZO",
+      "cuit": "27311606412",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subgerencia de Fideicomisos Financieros de Consumo",
+      "deuda_total_millones": 167.9,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 158.59
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 9.31
+        }
+      ]
+    },
+    {
+      "nombre": "Sonia Verónica HARMS",
+      "cuit": "27243880306",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección de Control de Permanencia",
+      "deuda_total_millones": 167.24,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 161.49
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 5.75
+        }
+      ]
+    },
+    {
+      "nombre": "María Daniela SALAZAR",
+      "cuit": "27262797355",
+      "cargo": "Coordinador/a Regional",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Coordinación Regional de Protección Vegetal",
+      "deuda_total_millones": 166.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 166.46
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.15
+        }
+      ]
+    },
+    {
+      "nombre": "María Paula NÚÑEZ",
+      "cuit": "27302891902",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Departamento Instalaciones del Ciclo de Combustible Nuclear",
+      "deuda_total_millones": 163.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 163.33
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.27
+        }
+      ]
+    },
+    {
+      "nombre": "Silvia Carolina FARÍAS",
+      "cuit": "27236144742",
+      "cargo": "Miembro en representación de la Honorable Cámara de Diputados de la Nación",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Comisión Nacional de Evaluación y Acreditación Universitaria",
+      "deuda_total_millones": 162.84,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 132.55
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 28.26
+        },
+        {
+          "entidad": "[00014] BANCO DE LA PROVINCIA DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 2.04
+        }
+      ]
+    },
+    {
+      "nombre": "Leandro Omar TRICA",
+      "cuit": "20326700437",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Dirección de Compras, Infraestructura y Logística",
+      "deuda_total_millones": 162.12,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 158.64
+        },
+        {
+          "entidad": "[00027] BANCO SUPERVIELLE S.A.",
+          "situacion": "1",
+          "monto_millones": 3.32
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.16
+        }
+      ]
+    },
+    {
+      "nombre": "Mariela Florencia BOLATTI",
+      "cuit": "23264022584",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Dirección Nacional de Elencos Estables",
+      "deuda_total_millones": 161.97,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 144.11
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 15.87
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.0
+        }
+      ]
+    },
+    {
+      "nombre": "Hugo Martín PODESTA",
+      "cuit": "20338343729",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio del Interior",
+      "unidad": "Dirección de Colaboración con los Municipios",
+      "deuda_total_millones": 161.17,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 160.75
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.42
+        }
+      ]
+    },
+    {
+      "nombre": "María Soledad GARCÍA",
+      "cuit": "27313102683",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio del Interior",
+      "unidad": "Coordinación Centros de Frontera San Francisco",
+      "deuda_total_millones": 161.08,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 161.04
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.05
+        }
+      ]
+    },
+    {
+      "nombre": "Lucía Guadalupe VÁZQUEZ",
+      "cuit": "27314804614",
+      "cargo": "Escribano/a Adscripto/a",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Escribanía General del Gobierno de la Nación",
+      "deuda_total_millones": 160.69,
+      "deudas": [
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 151.12
+        },
+        {
+          "entidad": "[00044] BANCO HIPOTECARIO S.A.",
+          "situacion": "1",
+          "monto_millones": 6.56
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 2.08
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.93
+        }
+      ]
+    },
+    {
+      "nombre": "Aníbal Hernando MATURO",
+      "cuit": "20180549820",
+      "cargo": "Director/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Dirección de Despliegue Territorial",
+      "deuda_total_millones": 159.27,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 159.14
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.14
+        }
+      ]
+    },
+    {
+      "nombre": "Nicolás Antonio CORIA",
+      "cuit": "20326246477",
+      "cargo": "Director/a Suplente",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Belgrano Cargas y Logística S.A.",
+      "deuda_total_millones": 158.18,
+      "deudas": [
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 157.34
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.84
+        }
+      ]
+    },
+    {
+      "nombre": "Oscar Alfredo VILLABONA",
+      "cuit": "20172211780",
+      "cargo": "Administrador/a Nacional",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Administración Nacional de Aviación Civil",
+      "deuda_total_millones": 157.19,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 153.74
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.64
+        },
+        {
+          "entidad": "[00332] BANCO DE SERVICIOS FINANCIEROS S.A.",
+          "situacion": "1",
+          "monto_millones": 0.69
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.13
+        }
+      ]
+    },
+    {
+      "nombre": "Virginia Alejandra ACEVEDO",
+      "cuit": "27325404901",
+      "cargo": "Auditor/a Interno/a Titular",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Unidad de Auditoría Interna",
+      "deuda_total_millones": 156.89,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 152.36
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 4.53
+        }
+      ]
+    },
+    {
+      "nombre": "María Sol RODRIGUEZ",
+      "cuit": "23286793584",
+      "cargo": "Director/a",
+      "jurisdiccion": "Jefatura de Gabinete de Ministros",
+      "unidad": "Dirección de Desarrollo de Recursos Humanos",
+      "deuda_total_millones": 154.06,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 154.06
+        }
+      ]
+    },
+    {
+      "nombre": "Ricardo Javier MOLINA",
+      "cuit": "23246399409",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Salud",
+      "unidad": "Coordinación de Liquidaciones",
+      "deuda_total_millones": 153.16,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 153.06
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.09
+        }
+      ]
+    },
+    {
+      "nombre": "Vanesa CYNGISER",
+      "cuit": "27233267045",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Desregulación y Transformación del Estado",
+      "unidad": "Dirección de Gestión y Desarrollo de Carrera del Personal",
+      "deuda_total_millones": 152.59,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 145.67
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 6.92
+        }
+      ]
+    },
+    {
+      "nombre": "Joaquín Ignacio MOGABURU",
+      "cuit": "20309231660",
+      "cargo": "Subsecretario/a",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Subsecretaría de Derechos Humanos",
+      "deuda_total_millones": 152.22,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 147.45
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 4.77
+        }
+      ]
+    },
+    {
+      "nombre": "Luciana TORRES",
+      "cuit": "27246668901",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Dirección de Dictámenes",
+      "deuda_total_millones": 150.92,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 150.92
+        }
+      ]
+    },
+    {
+      "nombre": "Emiliana GIACCONE",
+      "cuit": "27267173287",
+      "cargo": "Director/a Nacional",
+      "jurisdiccion": "Ministerio de Justicia",
+      "unidad": "Dirección Nacional del Sistema de Declaraciones Juradas",
+      "deuda_total_millones": 149.62,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 145.46
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 4.16
+        }
+      ]
+    },
+    {
+      "nombre": "Carlos Andrés GALIÑO",
+      "cuit": "20291526846",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Departamento de Registros de Control",
+      "deuda_total_millones": 148.69,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 146.87
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 1.63
+        },
+        {
+          "entidad": "[00322] BANCO INDUSTRIAL S.A.",
+          "situacion": "1",
+          "monto_millones": 0.19
+        }
+      ]
+    },
+    {
+      "nombre": "Nahir Natalia ELYECHE",
+      "cuit": "27319632145",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Salud",
+      "unidad": "Dirección de Contabilidad y Tesorería",
+      "deuda_total_millones": 147.36,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 145.61
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.75
+        }
+      ]
+    },
+    {
+      "nombre": "Ana Carla ARUANI",
+      "cuit": "27252724120",
+      "cargo": "Coordinador/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Coordinación de Investigación y Desarrollo Sustentable",
+      "deuda_total_millones": 146.88,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 146.88
+        }
+      ]
+    },
+    {
+      "nombre": "Gabriel Andrés FERRUFINO",
+      "cuit": "20288247901",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Presidencia de la Nación",
+      "unidad": "Departamento Control de Instalaciones Radiactivas Clase I",
+      "deuda_total_millones": 145.68,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 145.68
+        }
+      ]
+    },
+    {
+      "nombre": "Mariela Isabel SAAVEDRA",
+      "cuit": "27277874410",
+      "cargo": "Auditor/a Adjunto/a",
+      "jurisdiccion": "Ministerio de Seguridad Nacional",
+      "unidad": "Auditoría Adjunta",
+      "deuda_total_millones": 142.53,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 140.91
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.61
+        }
+      ]
+    },
+    {
+      "nombre": "Virna Judith PAOLI",
+      "cuit": "27295033229",
+      "cargo": "Subgerente/a",
+      "jurisdiccion": "Ministerio de Economía",
+      "unidad": "Subgerencia de Transporte Urbano de Pasajeros",
+      "deuda_total_millones": 142.52,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 142.04
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.48
+        }
+      ]
+    },
+    {
+      "nombre": "Marcos Adolfo SAUCEDO",
+      "cuit": "20296645975",
+      "cargo": "Director/a",
+      "jurisdiccion": "Ministerio de Defensa",
+      "unidad": "Dirección de Pronósticos del Tiempo y Avisos",
+      "deuda_total_millones": 142.16,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 141.6
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.56
+        }
+      ]
+    },
+    {
+      "nombre": "José Luis BETTOLLI",
+      "cuit": "20230022551",
+      "cargo": "Gerente/a",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Gerencia de Prevención",
+      "deuda_total_millones": 141.19,
+      "deudas": [
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 139.21
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 1.03
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.77
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 0.19
+        }
+      ]
+    },
+    {
+      "nombre": "Hernán Javier HEGYKOZI",
+      "cuit": "20299063969",
+      "cargo": "Jefe/a de Departamento",
+      "jurisdiccion": "Ministerio de Capital Humano",
+      "unidad": "Departamento de Infraestructura y Tecnología",
+      "deuda_total_millones": 140.17,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 138.49
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 1.62
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    }
+  ]
+}
