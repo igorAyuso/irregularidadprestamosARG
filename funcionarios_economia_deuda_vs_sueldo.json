@@ -1,0 +1,872 @@
+{
+  "nota": "Sueldos brutos estimados a ene 2026. Autoridades: Decreto 931/2025. SINEP: escala dic 2025 + FE.",
+  "funcionarios_economia": [
+    {
+      "nombre": "Pedro Juan INCHAUSPE",
+      "cuit": "20286427503",
+      "cargo": "Director/a",
+      "unidad": "Banco Central de la República Argentina",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 601.68,
+      "ratio_deuda_sueldo": 240.1,
+      "meses_sueldo_para_pagar": 240.1,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 527.32
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 63.66
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 10.23
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.48
+        }
+      ]
+    },
+    {
+      "nombre": "Federico Matías FURIASE (AdH)",
+      "cuit": "20296972313",
+      "cargo": "Secretario/a",
+      "unidad": "Secretaría de Finanzas",
+      "sueldo_bruto_estimado": 6384869,
+      "tipo_escala": "Secretario",
+      "deuda_total_millones": 553.48,
+      "ratio_deuda_sueldo": 86.7,
+      "meses_sueldo_para_pagar": 86.7,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 408.69
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 119.54
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 25.19
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.05
+        }
+      ]
+    },
+    {
+      "nombre": "Felipe NUÑEZ",
+      "cuit": "20390283009",
+      "cargo": "Director/a Titular",
+      "unidad": "Banco de Inversión y Comercio Exterior S.A.",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Dir.Titular)",
+      "deuda_total_millones": 478.97,
+      "ratio_deuda_sueldo": 142.0,
+      "meses_sueldo_para_pagar": 142.0,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 475.24
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.72
+        }
+      ]
+    },
+    {
+      "nombre": "Manuel Ignacio CHAVARRÍA BERTOLAMI",
+      "cuit": "20346024594",
+      "cargo": "Consejero/a en representación de la República Argentina",
+      "unidad": "Entidad Binacional Yacyretá",
+      "sueldo_bruto_estimado": 5799037,
+      "tipo_escala": "Subsecretario (Consejero)",
+      "deuda_total_millones": 423.56,
+      "ratio_deuda_sueldo": 73.0,
+      "meses_sueldo_para_pagar": 73.0,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 423.56
+        }
+      ]
+    },
+    {
+      "nombre": "Agustín ROJO",
+      "cuit": "20322048204",
+      "cargo": "Subdirector/a General",
+      "unidad": "Subdirección General Institucional",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Dir.Nac/Gral)",
+      "deuda_total_millones": 362.77,
+      "ratio_deuda_sueldo": 107.6,
+      "meses_sueldo_para_pagar": 107.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 351.43
+        },
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 11.25
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.1
+        }
+      ]
+    },
+    {
+      "nombre": "Joaquín PÉREZ TRÍPODI",
+      "cuit": "20257902774",
+      "cargo": "Subdirector/a General",
+      "unidad": "Subdirección General de Administración",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Dir.Nac/Gral)",
+      "deuda_total_millones": 355.84,
+      "ratio_deuda_sueldo": 105.5,
+      "meses_sueldo_para_pagar": 105.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 350.71
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 5.12
+        }
+      ]
+    },
+    {
+      "nombre": "Luis María BUISEL",
+      "cuit": "20277921457",
+      "cargo": "Gerente/a",
+      "unidad": "Gerencia de Transmisión",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 342.67,
+      "ratio_deuda_sueldo": 101.6,
+      "meses_sueldo_para_pagar": 101.6,
+      "deudas": [
+        {
+          "entidad": "[00044] BANCO HIPOTECARIO S.A.",
+          "situacion": "1",
+          "monto_millones": 340.14
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.53
+        }
+      ]
+    },
+    {
+      "nombre": "Emiliano José MONGILARDI",
+      "cuit": "20325908603",
+      "cargo": "Director/a Titular",
+      "unidad": "YPF S.A.",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Dir.Titular)",
+      "deuda_total_millones": 325.64,
+      "ratio_deuda_sueldo": 96.6,
+      "meses_sueldo_para_pagar": 96.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 320.23
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 5.41
+        }
+      ]
+    },
+    {
+      "nombre": "Gonzalo Andrés VIVAS",
+      "cuit": "20366880918",
+      "cargo": "Gerente/a",
+      "unidad": "Gerencia de Control de Gestión",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 276.04,
+      "ratio_deuda_sueldo": 81.9,
+      "meses_sueldo_para_pagar": 81.9,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 275.11
+        },
+        {
+          "entidad": "[00015] INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U.",
+          "situacion": "1",
+          "monto_millones": 0.9
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.03
+        }
+      ]
+    },
+    {
+      "nombre": "Matías Javier MANA",
+      "cuit": "20308602614",
+      "cargo": "Subsecretario/a",
+      "unidad": "Subsecretaría de Relaciones Financieras Internacionales",
+      "sueldo_bruto_estimado": 5799037,
+      "tipo_escala": "Subsecretario",
+      "deuda_total_millones": 256.38,
+      "ratio_deuda_sueldo": 44.2,
+      "meses_sueldo_para_pagar": 44.2,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 255.43
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.95
+        }
+      ]
+    },
+    {
+      "nombre": "Damián CAGLIERIS",
+      "cuit": "20296866955",
+      "cargo": "Subgerente/a",
+      "unidad": "Subgerencia de Centro de Estudios Marítimos y Portuarios",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 254.52,
+      "ratio_deuda_sueldo": 75.5,
+      "meses_sueldo_para_pagar": 75.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 248.51
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 5.78
+        },
+        {
+          "entidad": "[55002] AMEPORT Mutual del Personal del Estado Nacional Provincial Municipal y",
+          "situacion": "1",
+          "monto_millones": 0.23
+        }
+      ]
+    },
+    {
+      "nombre": "Priscila LÓPEZ",
+      "cuit": "27330323308",
+      "cargo": "Subgerente/a",
+      "unidad": "Subgerencia de Normas de Seguros y Reaseguros",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 237.92,
+      "ratio_deuda_sueldo": 70.6,
+      "meses_sueldo_para_pagar": 70.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 233.07
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 4.32
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.44
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.09
+        }
+      ]
+    },
+    {
+      "nombre": "Federico Matías RAMOS NAPOLI",
+      "cuit": "20382782845",
+      "cargo": "Secretario/a",
+      "unidad": "Secretaría de Asuntos Nucleares",
+      "sueldo_bruto_estimado": 6384869,
+      "tipo_escala": "Secretario",
+      "deuda_total_millones": 237.71,
+      "ratio_deuda_sueldo": 37.2,
+      "meses_sueldo_para_pagar": 37.2,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 218.11
+        },
+        {
+          "entidad": "[00285] BANCO MACRO S.A.",
+          "situacion": "1",
+          "monto_millones": 17.58
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.02
+        }
+      ]
+    },
+    {
+      "nombre": "Juan Manuel GARZÓN",
+      "cuit": "20240163056",
+      "cargo": "Subsecretario/a",
+      "unidad": "Subsecretaría de Programación Microeconómica",
+      "sueldo_bruto_estimado": 5799037,
+      "tipo_escala": "Subsecretario",
+      "deuda_total_millones": 235.65,
+      "ratio_deuda_sueldo": 40.6,
+      "meses_sueldo_para_pagar": 40.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 233.41
+        },
+        {
+          "entidad": "[70408] TARJETA NARANJA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.19
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.05
+        }
+      ]
+    },
+    {
+      "nombre": "Gabriela Beatriz FIGUEROA",
+      "cuit": "27314261963",
+      "cargo": "Secretario/a Letrado",
+      "unidad": "Secretaría Letrada de Vocalía 4° Nominación",
+      "sueldo_bruto_estimado": 6384869,
+      "tipo_escala": "Secretario",
+      "deuda_total_millones": 232.77,
+      "ratio_deuda_sueldo": 36.5,
+      "meses_sueldo_para_pagar": 36.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 232.71
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.06
+        }
+      ]
+    },
+    {
+      "nombre": "Federico PRESERN",
+      "cuit": "20278583342",
+      "cargo": "Jefe/a de División",
+      "unidad": "División Servicio Técnico",
+      "sueldo_bruto_estimado": 992207,
+      "tipo_escala": "SINEP C + Jef.II (Jefe Div.)",
+      "deuda_total_millones": 221.23,
+      "ratio_deuda_sueldo": 223.0,
+      "meses_sueldo_para_pagar": 223.0,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 214.97
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.95
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.31
+        }
+      ]
+    },
+    {
+      "nombre": "Javier Darío DEMARCHI",
+      "cuit": "23233415359",
+      "cargo": "Director/a",
+      "unidad": "Dirección de Auditoría Interna",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 205.5,
+      "ratio_deuda_sueldo": 82.0,
+      "meses_sueldo_para_pagar": 82.0,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 202.74
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.21
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.55
+        }
+      ]
+    },
+    {
+      "nombre": "Marina ANDREU",
+      "cuit": "27245292312",
+      "cargo": "Director/a",
+      "unidad": "Dirección de Centro Regional Patagonia Sur",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 196.59,
+      "ratio_deuda_sueldo": 78.5,
+      "meses_sueldo_para_pagar": 78.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 196.39
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.19
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Alejandro HERRERA BLANCHARD",
+      "cuit": "20180828673",
+      "cargo": "Coordinador/a",
+      "unidad": "Coordinación de Administración",
+      "sueldo_bruto_estimado": 2294352,
+      "tipo_escala": "SINEP B + FE IV (Coordinador)",
+      "deuda_total_millones": 193.83,
+      "ratio_deuda_sueldo": 84.5,
+      "meses_sueldo_para_pagar": 84.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 193.83
+        }
+      ]
+    },
+    {
+      "nombre": "Pablo Andrés MUSTICCHIO",
+      "cuit": "20270194630",
+      "cargo": "Gerente/a",
+      "unidad": "Gerencia de Estudios y Estadísticas",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 192.89,
+      "ratio_deuda_sueldo": 57.2,
+      "meses_sueldo_para_pagar": 57.2,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 190.69
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.2
+        }
+      ]
+    },
+    {
+      "nombre": "Guadalupe GONZALEZ SANGUINETI",
+      "cuit": "27290419226",
+      "cargo": "Director/a",
+      "unidad": "Dirección de Recursos Humanos",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 183.43,
+      "ratio_deuda_sueldo": 73.2,
+      "meses_sueldo_para_pagar": 73.2,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 182.51
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.92
+        }
+      ]
+    },
+    {
+      "nombre": "Marcos Eszequiel SAYONI",
+      "cuit": "20269237253",
+      "cargo": "Gerente/a",
+      "unidad": "Gerencia de Tecnologías de la Información y Comunicación",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 180.25,
+      "ratio_deuda_sueldo": 53.5,
+      "meses_sueldo_para_pagar": 53.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.89
+        },
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 3.35
+        }
+      ]
+    },
+    {
+      "nombre": "Gonzalo SERRA LAHUNSEMBARNE",
+      "cuit": "20283846904",
+      "cargo": "Responsable",
+      "unidad": "Responsable de Auditoría Contable Financiera",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Responsable)",
+      "deuda_total_millones": 178.49,
+      "ratio_deuda_sueldo": 71.2,
+      "meses_sueldo_para_pagar": 71.2,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 176.54
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 1.95
+        }
+      ]
+    },
+    {
+      "nombre": "María Florencia RUÍZ DÍAZ",
+      "cuit": "27310619324",
+      "cargo": "Jefe/a de Departamento",
+      "unidad": "Departamento de Relaciones Laborales",
+      "sueldo_bruto_estimado": 1088582,
+      "tipo_escala": "SINEP C + Jef.I (Jefe Depto)",
+      "deuda_total_millones": 174.31,
+      "ratio_deuda_sueldo": 160.1,
+      "meses_sueldo_para_pagar": 160.1,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 169.38
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 2.7
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 2.22
+        }
+      ]
+    },
+    {
+      "nombre": "Hernán Darío CRUELLS",
+      "cuit": "20219123249",
+      "cargo": "Director/a",
+      "unidad": "Dirección de Análisis de Fiscalización Especializada",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 171.95,
+      "ratio_deuda_sueldo": 68.6,
+      "meses_sueldo_para_pagar": 68.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 118.56
+        },
+        {
+          "entidad": "[00029] BANCO DE LA CIUDAD DE BUENOS AIRES",
+          "situacion": "1",
+          "monto_millones": 28.32
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 24.48
+        },
+        {
+          "entidad": "[70147] CENCOSUD S.A.",
+          "situacion": "1",
+          "monto_millones": 0.59
+        }
+      ]
+    },
+    {
+      "nombre": "Braian Emiliano CORES",
+      "cuit": "20331005240",
+      "cargo": "Secretario/a Letrado",
+      "unidad": "Secretaría Letrada de Vocalía 6° Nominación",
+      "sueldo_bruto_estimado": 6384869,
+      "tipo_escala": "Secretario",
+      "deuda_total_millones": 171.85,
+      "ratio_deuda_sueldo": 26.9,
+      "meses_sueldo_para_pagar": 26.9,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 170.95
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 0.72
+        },
+        {
+          "entidad": "[00072] BANCO SANTANDER ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 0.18
+        }
+      ]
+    },
+    {
+      "nombre": "María Cecilia DESCALZO",
+      "cuit": "27311606412",
+      "cargo": "Subgerente/a",
+      "unidad": "Subgerencia de Fideicomisos Financieros de Consumo",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 167.9,
+      "ratio_deuda_sueldo": 49.8,
+      "meses_sueldo_para_pagar": 49.8,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 158.59
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 9.31
+        }
+      ]
+    },
+    {
+      "nombre": "María Daniela SALAZAR",
+      "cuit": "27262797355",
+      "cargo": "Coordinador/a Regional",
+      "unidad": "Coordinación Regional de Protección Vegetal",
+      "sueldo_bruto_estimado": 2294352,
+      "tipo_escala": "SINEP B + FE IV (Coordinador)",
+      "deuda_total_millones": 166.6,
+      "ratio_deuda_sueldo": 72.6,
+      "meses_sueldo_para_pagar": 72.6,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 166.46
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.15
+        }
+      ]
+    },
+    {
+      "nombre": "Leandro Omar TRICA",
+      "cuit": "20326700437",
+      "cargo": "Director/a",
+      "unidad": "Dirección de Compras, Infraestructura y Logística",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 162.12,
+      "ratio_deuda_sueldo": 64.7,
+      "meses_sueldo_para_pagar": 64.7,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 158.64
+        },
+        {
+          "entidad": "[00027] BANCO SUPERVIELLE S.A.",
+          "situacion": "1",
+          "monto_millones": 3.32
+        },
+        {
+          "entidad": "[72634] MERCADOLIBRE S.R.L.",
+          "situacion": "1",
+          "monto_millones": 0.16
+        }
+      ]
+    },
+    {
+      "nombre": "Nicolás Antonio CORIA",
+      "cuit": "20326246477",
+      "cargo": "Director/a Suplente",
+      "unidad": "Belgrano Cargas y Logística S.A.",
+      "sueldo_bruto_estimado": 2505924,
+      "tipo_escala": "SINEP B + FE III (Director)",
+      "deuda_total_millones": 158.18,
+      "ratio_deuda_sueldo": 63.1,
+      "meses_sueldo_para_pagar": 63.1,
+      "deudas": [
+        {
+          "entidad": "[00034] BANCO PATAGONIA S.A.",
+          "situacion": "1",
+          "monto_millones": 157.34
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.84
+        }
+      ]
+    },
+    {
+      "nombre": "Oscar Alfredo VILLABONA",
+      "cuit": "20172211780",
+      "cargo": "Administrador/a Nacional",
+      "unidad": "Administración Nacional de Aviación Civil",
+      "sueldo_bruto_estimado": 6970892,
+      "tipo_escala": "Ministro",
+      "deuda_total_millones": 157.19,
+      "ratio_deuda_sueldo": 22.5,
+      "meses_sueldo_para_pagar": 22.5,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 153.74
+        },
+        {
+          "entidad": "[00017] BANCO BBVA ARGENTINA S.A.",
+          "situacion": "1",
+          "monto_millones": 2.64
+        },
+        {
+          "entidad": "[00332] BANCO DE SERVICIOS FINANCIEROS S.A.",
+          "situacion": "1",
+          "monto_millones": 0.69
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.13
+        }
+      ]
+    },
+    {
+      "nombre": "Virginia Alejandra ACEVEDO",
+      "cuit": "27325404901",
+      "cargo": "Auditor/a Interno/a Titular",
+      "unidad": "Unidad de Auditoría Interna",
+      "sueldo_bruto_estimado": 3159316,
+      "tipo_escala": "SINEP A + FE II (Auditor)",
+      "deuda_total_millones": 156.89,
+      "ratio_deuda_sueldo": 49.7,
+      "meses_sueldo_para_pagar": 49.7,
+      "deudas": [
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 152.36
+        },
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 4.53
+        }
+      ]
+    },
+    {
+      "nombre": "Ana Carla ARUANI",
+      "cuit": "27252724120",
+      "cargo": "Coordinador/a",
+      "unidad": "Coordinación de Investigación y Desarrollo Sustentable",
+      "sueldo_bruto_estimado": 2294352,
+      "tipo_escala": "SINEP B + FE IV (Coordinador)",
+      "deuda_total_millones": 146.88,
+      "ratio_deuda_sueldo": 64.0,
+      "meses_sueldo_para_pagar": 64.0,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 146.88
+        }
+      ]
+    },
+    {
+      "nombre": "Virna Judith PAOLI",
+      "cuit": "27295033229",
+      "cargo": "Subgerente/a",
+      "unidad": "Subgerencia de Transporte Urbano de Pasajeros",
+      "sueldo_bruto_estimado": 3372063,
+      "tipo_escala": "SINEP A + FE I (Gerente)",
+      "deuda_total_millones": 142.52,
+      "ratio_deuda_sueldo": 42.3,
+      "meses_sueldo_para_pagar": 42.3,
+      "deudas": [
+        {
+          "entidad": "[00011] BANCO DE LA NACION ARGENTINA",
+          "situacion": "1",
+          "monto_millones": 142.04
+        },
+        {
+          "entidad": "[00007] BANCO DE GALICIA Y BUENOS AIRES S.A.",
+          "situacion": "1",
+          "monto_millones": 0.48
+        }
+      ]
+    }
+  ]
+}
