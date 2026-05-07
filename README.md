@@ -110,7 +110,7 @@ Suma de tres campos del archivo de deudores, equivalente a "Financiaciones y Otr
 
 ## Período actual
 
-Enero 2026 (serie histórica: Febrero 2024 — Enero 2026)
+Marzo 2026 (serie histórica: Abril 2024 — Marzo 2026)
 
 ## Licencia
 

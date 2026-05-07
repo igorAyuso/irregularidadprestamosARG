@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "fuente": "Central de Deudores BCRA - Enero 2026",
+    "fuente": "Central de Deudores BCRA - Marzo 2026",
     "proxy_edad": "DNI >= 40.000.000 aprox menores 25 anios",
     "exclusiones": "DNI >= 90M (extranjeros), empresas (CUIT 30/33/34)",
     "situaciones_morosas": [
@@ -11,242 +11,242 @@
     ]
   },
   "resumen": {
-    "total_personas": 37941508,
-    "morosos_total": 8273012,
-    "tasa_morosidad_general": 21.8,
-    "jovenes_total": 5345521,
-    "jovenes_morosos": 1799467,
-    "tasa_morosidad_jovenes": 33.66,
-    "adultos_total": 32595987,
-    "adultos_morosos": 6473545,
-    "tasa_morosidad_adultos": 19.86
+    "total_personas": 38462943,
+    "morosos_total": 8824426,
+    "tasa_morosidad_general": 22.94,
+    "jovenes_total": 5478770,
+    "jovenes_morosos": 1918131,
+    "tasa_morosidad_jovenes": 35.01,
+    "adultos_total": 32984173,
+    "adultos_morosos": 6906295,
+    "tasa_morosidad_adultos": 20.94
   },
   "jovenes_por_situacion": {
     "1": {
-      "count": 3249705,
-      "monto": 3394604060.0
+      "count": 3261955,
+      "monto": 3463012820
     },
     "2": {
-      "count": 296349,
-      "monto": 367835763.0
+      "count": 298684,
+      "monto": 390908272
     },
     "3": {
-      "count": 382685,
-      "monto": 484874804.0
+      "count": 354685,
+      "monto": 442178146
     },
     "4": {
-      "count": 528847,
-      "monto": 568712299.0
+      "count": 563974,
+      "monto": 666302646
     },
     "5": {
-      "count": 887631,
-      "monto": 295874764.0
+      "count": 999208,
+      "monto": 388808897
     },
     "11": {
-      "count": 304,
-      "monto": 4825243.0
+      "count": 264,
+      "monto": 3798227
     }
   },
   "top_entidades_jovenes_morosos": [
     {
       "codigo": "72634",
       "nombre": "MERCADOLIBRE S.R.L.",
-      "total": 1277735,
-      "morosos": 283432,
-      "tasa": 22.18,
-      "monto_total": 247199633.0,
-      "monto_moroso": 50593127.0
+      "total": 1304321,
+      "morosos": 301455,
+      "tasa": 23.11,
+      "monto_total": 270493819,
+      "monto_moroso": 59310796
     },
     {
       "codigo": "70408",
       "nombre": "TARJETA NARANJA S.A.",
-      "total": 776848,
-      "morosos": 250925,
-      "tasa": 32.3,
-      "monto_total": 528153610.0,
-      "monto_moroso": 172574329.0
+      "total": 765793,
+      "morosos": 269969,
+      "tasa": 35.25,
+      "monto_total": 531966563,
+      "monto_moroso": 194917845
     },
     {
       "codigo": "45030",
       "nombre": "NARANJA DIGITAL COMPAÑÍA FINANCIERA S.A.U.",
-      "total": 356240,
-      "morosos": 165930,
-      "tasa": 46.58,
-      "monto_total": 91223182.0,
-      "monto_moroso": 17050308.0
+      "total": 391099,
+      "morosos": 176034,
+      "tasa": 45.01,
+      "monto_total": 112747778,
+      "monto_moroso": 21517720
     },
     {
       "codigo": "00007",
       "nombre": "BANCO DE GALICIA Y BUENOS AIRES S.A.",
-      "total": 268580,
-      "morosos": 89472,
-      "tasa": 33.31,
-      "monto_total": 556686150.0,
-      "monto_moroso": 173768543.0
+      "total": 270907,
+      "morosos": 91972,
+      "tasa": 33.95,
+      "monto_total": 546441350,
+      "monto_moroso": 162664353
     },
     {
       "codigo": "00011",
       "nombre": "BANCO DE LA NACION ARGENTINA",
-      "total": 222564,
-      "morosos": 79658,
-      "tasa": 35.79,
-      "monto_total": 567617727.0,
-      "monto_moroso": 109230531.0
+      "total": 219242,
+      "morosos": 78624,
+      "tasa": 35.86,
+      "monto_total": 622355831,
+      "monto_moroso": 131386809
     },
     {
       "codigo": "00017",
       "nombre": "BANCO BBVA ARGENTINA S.A.",
-      "total": 288680,
-      "morosos": 68654,
-      "tasa": 23.78,
-      "monto_total": 410145092.0,
-      "monto_moroso": 77133515.0
+      "total": 290806,
+      "morosos": 77524,
+      "tasa": 26.66,
+      "monto_total": 427125365,
+      "monto_moroso": 85924050
     },
     {
       "codigo": "10914",
       "nombre": "RECUPERO DE ACTIVOS FIDEICOMISO FINANCIERO",
-      "total": 51213,
-      "morosos": 51213,
-      "tasa": 100.0,
-      "monto_total": 12864191.0,
-      "monto_moroso": 12864191.0
-    },
-    {
-      "codigo": "10923",
-      "nombre": "F.F. PRIVADO GREEN LIGHT",
-      "total": 46935,
-      "morosos": 46935,
-      "tasa": 100.0,
-      "monto_total": 4094911.0,
-      "monto_moroso": 4094911.0
-    },
-    {
-      "codigo": "00072",
-      "nombre": "BANCO SANTANDER ARGENTINA S.A.",
-      "total": 186430,
-      "morosos": 45904,
-      "tasa": 24.62,
-      "monto_total": 458655752.0,
-      "monto_moroso": 122553987.0
-    },
-    {
-      "codigo": "55370",
-      "nombre": "CREDIL S.R.L.",
-      "total": 52181,
-      "morosos": 44820,
-      "tasa": 85.89,
-      "monto_total": 13222929.0,
-      "monto_moroso": 10307693.0
+      "total": 54546,
+      "morosos": 54546,
+      "tasa": 100,
+      "monto_total": 16373386,
+      "monto_moroso": 16373386
     },
     {
       "codigo": "55507",
       "nombre": "FINANZAS DIGITALES SAS",
-      "total": 88928,
-      "morosos": 34962,
-      "tasa": 39.31,
-      "monto_total": 6015966.0,
-      "monto_moroso": 3464885.0
+      "total": 117956,
+      "morosos": 48099,
+      "tasa": 40.78,
+      "monto_total": 9011099,
+      "monto_moroso": 4652994
+    },
+    {
+      "codigo": "10923",
+      "nombre": "F.F. PRIVADO GREEN LIGHT",
+      "total": 47550,
+      "morosos": 47550,
+      "tasa": 100,
+      "monto_total": 4612950,
+      "monto_moroso": 4612950
+    },
+    {
+      "codigo": "55370",
+      "nombre": "CREDIL S.R.L.",
+      "total": 51662,
+      "morosos": 45203,
+      "tasa": 87.5,
+      "monto_total": 13861357,
+      "monto_moroso": 11246703
+    },
+    {
+      "codigo": "00072",
+      "nombre": "BANCO SANTANDER ARGENTINA S.A.",
+      "total": 179483,
+      "morosos": 43340,
+      "tasa": 24.15,
+      "monto_total": 465478829,
+      "monto_moroso": 140531842
     },
     {
       "codigo": "00332",
-      "nombre": "BANCO DE SERVICIOS FINANCIEROS S.A.",
-      "total": 62913,
-      "morosos": 34922,
-      "tasa": 55.51,
-      "monto_total": 44074234.0,
-      "monto_moroso": 25949403.0
+      "nombre": "BANCO DE SERVICIOS FINANCIEROS CARREFOUR SAU",
+      "total": 62939,
+      "morosos": 38209,
+      "tasa": 60.71,
+      "monto_total": 46299996,
+      "monto_moroso": 29899094
     },
     {
       "codigo": "00014",
       "nombre": "BANCO DE LA PROVINCIA DE BUENOS AIRES",
-      "total": 139264,
-      "morosos": 34850,
-      "tasa": 25.02,
-      "monto_total": 344141785.0,
-      "monto_moroso": 101804052.0
+      "total": 141367,
+      "morosos": 37605,
+      "tasa": 26.6,
+      "monto_total": 354612348,
+      "monto_moroso": 112391563
     },
     {
       "codigo": "00384",
       "nombre": "UALA BANK S.A.U.",
-      "total": 97100,
-      "morosos": 31821,
-      "tasa": 32.77,
-      "monto_total": 70890456.0,
-      "monto_moroso": 31808161.0
+      "total": 94556,
+      "morosos": 29908,
+      "tasa": 31.63,
+      "monto_total": 68395227,
+      "monto_moroso": 31569069
     },
     {
       "codigo": "00285",
       "nombre": "BANCO MACRO S.A.",
-      "total": 162519,
-      "morosos": 26837,
-      "tasa": 16.51,
-      "monto_total": 275545193.0,
-      "monto_moroso": 32042482.0
+      "total": 164606,
+      "morosos": 29545,
+      "tasa": 17.95,
+      "monto_total": 289562729,
+      "monto_moroso": 34428075
     },
     {
       "codigo": "55449",
-      "nombre": "FIDEICOMISO PRIVADO DE ADMINISTRACION CENTAURUS",
-      "total": 25788,
-      "morosos": 25788,
-      "tasa": 100.0,
-      "monto_total": 13606643.0,
-      "monto_moroso": 13606643.0
+      "nombre": "FIDEICOMISO PRIVADO DE ADMINISTRACION CENFIDE",
+      "total": 25654,
+      "morosos": 25654,
+      "tasa": 100,
+      "monto_total": 13746764,
+      "monto_moroso": 13746764
     },
     {
       "codigo": "55027",
       "nombre": "ELECTRONICA MEGATONE SRL",
-      "total": 52677,
-      "morosos": 24171,
-      "tasa": 45.89,
-      "monto_total": 50837528.0,
-      "monto_moroso": 25683601.0
-    },
-    {
-      "codigo": "55012",
-      "nombre": "CFN SRL",
-      "total": 32860,
-      "morosos": 19175,
-      "tasa": 58.35,
-      "monto_total": 30681808.0,
-      "monto_moroso": 19701187.0
-    },
-    {
-      "codigo": "55024",
-      "nombre": "CREDICUOTAS CONSUMO S.A.",
-      "total": 42268,
-      "morosos": 18081,
-      "tasa": 42.78,
-      "monto_total": 54826531.0,
-      "monto_moroso": 19505636.0
+      "total": 51924,
+      "morosos": 24187,
+      "tasa": 46.58,
+      "monto_total": 54426702,
+      "monto_moroso": 29340746
     },
     {
       "codigo": "55296",
       "nombre": "SANTANDER CONSUMER SA",
-      "total": 54626,
-      "morosos": 17731,
-      "tasa": 32.46,
-      "monto_total": 38313545.0,
-      "monto_moroso": 13667068.0
+      "total": 57505,
+      "morosos": 21591,
+      "tasa": 37.55,
+      "monto_total": 39691541,
+      "monto_moroso": 16644097
+    },
+    {
+      "codigo": "55012",
+      "nombre": "CFN SRL",
+      "total": 32938,
+      "morosos": 20109,
+      "tasa": 61.05,
+      "monto_total": 32588246,
+      "monto_moroso": 21268826
+    },
+    {
+      "codigo": "55041",
+      "nombre": "Naldo Lombardi S.A.",
+      "total": 44373,
+      "morosos": 19232,
+      "tasa": 43.34,
+      "monto_total": 39978710,
+      "monto_moroso": 14446524
     }
   ],
   "distribucion_dni": {
-    "0M-5M": 443150,
-    "5M-10M": 1334426,
-    "10M-15M": 4378572,
-    "15M-20M": 3087377,
-    "20M-25M": 5206001,
-    "25M-30M": 6066515,
-    "30M-35M": 6286304,
-    "35M-40M": 5793642,
-    "40M-45M": 4244093,
-    "45M-50M": 1075366,
-    "50M-55M": 22349,
-    "60M-65M": 2016,
-    "55M-60M": 1663,
+    "0M-5M": 436847,
+    "5M-10M": 1328773,
+    "10M-15M": 4409420,
+    "15M-20M": 3121638,
+    "20M-25M": 5267967,
+    "25M-30M": 6155395,
+    "30M-35M": 6378701,
+    "35M-40M": 5885432,
+    "40M-45M": 4328180,
+    "45M-50M": 1123964,
+    "50M-55M": 22899,
+    "60M-65M": 1951,
+    "55M-60M": 1742,
     "80M-85M": 2,
     "70M-75M": 3,
-    "75M-80M": 8,
-    "65M-70M": 20,
+    "75M-80M": 6,
+    "65M-70M": 22,
     "85M-90M": 1
   }
 }

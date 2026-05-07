@@ -19,9 +19,9 @@ Dashboard HTML autocontenido que analiza la Central de Deudores del BCRA (Argent
 
 | Archivo | Ubicación | Descripción | Tamaño |
 |---------|-----------|-------------|--------|
-| `deudores.txt` | `./deudores.txt` | Archivo mensual Enero 2026. Todos los deudores, 1 registro por CUIT por entidad. Formato ancho fijo 171 chars. | 6.9 GB, 39.8M líneas |
-| `Maeent.txt` | `./Maeent.txt` | Maestro de entidades: código (5 chars, zero-padded) + nombre | 551 entidades |
-| `24DSF.txt` | `./DATAHISTORICA/24DSF.txt` | Archivo bianual (24 meses, Feb 2024 - Ene 2026). 1 registro por CUIT por entidad. Formato ancho fijo 378 chars. | 23 GB, 60.5M líneas |
+| `deudores.txt` | `./deudores.txt` | Archivo mensual Marzo 2026. Todos los deudores, 1 registro por CUIT por entidad. Formato ancho fijo 171 chars. | 6.9 GB, 40.4M líneas |
+| `Maeent.txt` | `./Maeent.txt` | Maestro de entidades: código (5 chars, zero-padded) + nombre | 566 entidades |
+| `24DSF.txt` | `./DATAHISTORICA/24DSF.txt` | Archivo bianual (24 meses, Abr 2024 - Mar 2026). 1 registro por CUIT por entidad. Formato ancho fijo 378 chars. | 23 GB, ~60M líneas |
 
 ### Estructura de `deudores.txt` (171 chars por línea)
 ```
@@ -100,19 +100,28 @@ El porcentaje agregado de irregularidad usa **TODAS** las entidades del sector (
 - Lee `deudores.txt` + `Maeent.txt`
 - Genera `data_v4.json` con 4 secciones (familia/empresa × financiero/no_financiero)
 - Cada sección tiene: `summary` (% agregado) + `entities` (lista para tabla)
+- **Resultado Mar 2026**: Fam Fin=13.40%, Fam NoFin=30.70%, Emp Fin=3.16%, Emp NoFin=12.77%
 - **Resultado Ene 2026**: Fam Fin=10.19%, Fam NoFin=27.85%, Emp Fin=2.50%, Emp NoFin=8.13%
+
+### `scripts_nodejs/process_deudores.js` y `process_24dsf.js` — Equivalentes Node.js
+Reimplementaciones en Node.js de `process_v4.py` y `process_24dsf_v2.c` para entornos sin Python/GCC.
+- `process_deudores.js [INPUT_DIR] [OUTPUT_FILE] [PERIODO] [PERIODO_LABEL]`
+- `process_24dsf.js [INPUT_DIR] [MAEENT_DIR] [OUTPUT_DIR] [LATEST_YEAR] [LATEST_MONTH]`
+- `update_dashboard.js [REPO_DIR]` — embebe los JSON generados en `index.html` y actualiza textos del periodo
+- `split_deudores.js [INPUT_DIR] [OUTPUT_DIR]` — splitea `deudores.txt` por entidad
 
 ### `process_24dsf.c` — Procesador del archivo bianual (C, ultra-liviano)
 - Lee `24DSF.txt` (23GB) en streaming con ~0 KB de RAM extra
 - Genera `data_series.json` con 24 meses de datos agregados por sector
 - **NOTA CRÍTICA**: El 24DSF incluye CUITs históricos que ya no tienen deuda activa en el mes actual, por lo que sus % son ligeramente más altos que los del archivo mensual. Los bloques con situación 0 y monto 0 ya se filtran correctamente.
-- **Solución**: Enero 2026 se sobreescribe con los valores de `deudores.txt` (archivo mensual = fuente autoritativa para el mes corriente).
+- **Solución**: el mes corriente (Marzo 2026) se sobreescribe con los valores de `deudores.txt` (archivo mensual = fuente autoritativa para el mes corriente).
 
 ### Archivos intermedios de datos
 | Archivo | Descripción |
 |---------|-------------|
-| `data_v4.json` | Datos por entidad, Enero 2026 (de deudores.txt) |
-| `data_series.json` | Serie 24 meses agregada por sector (de 24DSF.txt, Ene 2026 corregido con deudores.txt) |
+| `data_v4.json` | Datos por entidad, Marzo 2026 (de deudores.txt) |
+| `data_series.json` | Serie 24 meses agregada por sector (de 24DSF.txt, Mar 2026 corregido con deudores.txt) |
+| `data_entity_series.json` | Serie 24 meses por entidad (para detalle clickeable del dashboard) |
 
 ---
 
@@ -221,12 +230,32 @@ Después de actualizar data_v4.json y/o data_series.json, hay que re-embeber los
 
 ## Datos de Referencia para Validación
 
+### Marzo 2026 (release actual)
+
+| Fuente | Fam Fin | Fam NoFin | Emp Fin | Emp NoFin |
+|--------|---------|-----------|---------|-----------|
+| deudores.txt C7+C9+C10 (definición amplia) | **13.40%** | **30.70%** | **3.16%** | **12.77%** |
+| Dashboard (Mar 2026) | **13.40%** | **30.70%** | **3.16%** | **12.77%** |
+
+### Enero 2026 (release anterior, de referencia)
+
 | Fuente | Fam Fin | Fam NoFin | Emp Fin | Emp NoFin |
 |--------|---------|-----------|---------|-----------|
 | 1816 (analista, Ene 2026) | ~10.6% | ~27.4% | - | - |
 | deudores.txt solo C7 (definición estrecha) | 10.19% | 27.85% | 2.50% | 8.13% |
 | deudores.txt C7+C9+C10 (definición amplia) | 12.17% | 27.85% | 2.90% | 8.13% |
 | 24DSF.txt (Ene 2026, definición amplia) | 12.11% | 27.41% | 2.53% | 7.60% |
-| Dashboard (Ene 2026, definición amplia) | **12.11%** | **27.41%** | **2.53%** | **7.60%** |
+| Dashboard (Ene 2026, definición amplia) | 12.11% | 27.41% | 2.53% | 7.60% |
 
 > **Nota**: 1816 probablemente usa solo Campo 7 (Préstamos). Nuestro dashboard usa C7+C9+C10 para ser consistente con la serie histórica del 24DSF. La diferencia en Financiero es ~2 puntos porcentuales; en No Financiero es cero.
+
+### Variación Ene 2026 → Mar 2026
+
+| Segmento | Δ % monto |
+|----------|-----------|
+| Familias Financiero | +1.29 pp |
+| Familias No Financiero | +3.29 pp |
+| Empresas Financiero | +0.63 pp |
+| Empresas No Financiero | +5.17 pp |
+
+Deterioro generalizado en los 4 segmentos. El deterioro más fuerte está en empresas no financieras (+5.17 pp) y familias no financieras (+3.29 pp).
