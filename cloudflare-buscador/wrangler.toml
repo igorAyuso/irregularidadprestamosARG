@@ -1,0 +1,12 @@
+# Worker del buscador por CUIT (lee del bucket R2 "cuit-index")
+name = "cuit-buscador"
+main = "src/worker.js"
+compatibility_date = "2026-01-01"
+
+# Binding al bucket R2 con los shards del índice (NNN.tsv + meta.json)
+[[r2_buckets]]
+binding = "INDEX"
+bucket_name = "cuit-index"
+
+[observability]
+enabled = true

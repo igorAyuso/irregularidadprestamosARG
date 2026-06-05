@@ -33,3 +33,6 @@ datos_por_entidad/
 
 # Indice por CUIT (buscador): local, regenerable
 cuit_index/
+
+# Estado local de wrangler/miniflare
+.wrangler/

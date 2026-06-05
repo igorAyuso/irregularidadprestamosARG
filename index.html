@@ -1685,6 +1685,21 @@
         };
         let _entidadesCache = null, _buscarPeriodo = null;
 
+        // URL del Worker de Cloudflare (búsqueda online). Vacío = usar archivos locales.
+        const BUSCADOR_API = '';
+
+        const _MESES_ABBR = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
+        function fmtPeriodo(p) { // "202604" -> "Abr 2026"
+            if (!p || p.length < 6) return p || '';
+            return `${_MESES_ABBR[parseInt(p.slice(4,6),10)] || ''} ${p.slice(0,4)}`;
+        }
+        function setPeriodo(p) {
+            if (!p || _buscarPeriodo) return;
+            _buscarPeriodo = fmtPeriodo(p);
+            const el = document.getElementById('buscar-periodo');
+            if (el) el.textContent = _buscarPeriodo;
+        }
+
         function fmtCuit(c) { return `${c.slice(0,2)}-${c.slice(2,10)}-${c.slice(10)}`; }
         function tipoCuit(pref) {
             if (['20','23','24','27'].includes(pref)) return 'Persona humana (familia)';
@@ -1713,22 +1728,36 @@
             const shard = String(Number(raw) % 1000).padStart(3, '0');
             const entidades = await cargarEntidades();
 
-            let txt;
-            try {
-                const r = await fetch('cuit_index/' + shard + '.tsv');
-                if (!r.ok) throw new Error('no index');
-                txt = await r.text();
-            } catch (e) {
-                msg.innerHTML = '🔒 La búsqueda por CUIT funciona en la <strong>versión local</strong> del dashboard. Los datos por persona (~1&nbsp;GB, 40M de registros) no se publican online. Cloná el repo, generá el índice con <code>construir_indice_cuit.js</code> y abrilo localmente.';
-                return;
+            let recs = null;
+            // 1) API online (Worker de Cloudflare), si está configurada
+            if (BUSCADOR_API) {
+                try {
+                    const r = await fetch(BUSCADOR_API + '?cuit=' + raw);
+                    if (r.ok) {
+                        const j = await r.json();
+                        setPeriodo(j.periodo);
+                        recs = (j.registros || []).map(x => ({ ec: String(x.ec), sit: String(x.sit), monto: +x.monto || 0, dias: +x.dias || 0 }));
+                    }
+                } catch (e) { /* cae a archivos locales */ }
+            }
+            // 2) Archivos locales (versión local del dashboard)
+            if (recs === null) {
+                try {
+                    const r = await fetch('cuit_index/' + shard + '.tsv');
+                    if (!r.ok) throw new Error('no index');
+                    const txt = await r.text();
+                    recs = [];
+                    for (const line of txt.split('\n')) {
+                        if (!line.startsWith(raw + '\t')) continue;
+                        const p = line.split('\t');
+                        recs.push({ ec: p[1], sit: p[2], monto: parseFloat(p[3]) || 0, dias: parseInt(p[4], 10) || 0 });
+                    }
+                } catch (e) {
+                    msg.innerHTML = '🔒 La búsqueda por CUIT funciona en la <strong>versión local</strong> del dashboard. Los datos por persona (~1&nbsp;GB, 40M de registros) no se publican online. Cloná el repo, generá el índice con <code>construir_indice_cuit.js</code> y abrilo localmente.';
+                    return;
+                }
             }
 
-            const recs = [];
-            for (const line of txt.split('\n')) {
-                if (!line.startsWith(raw + '\t')) continue;
-                const p = line.split('\t');
-                recs.push({ ec: p[1], sit: p[2], monto: parseFloat(p[3]) || 0, dias: parseInt(p[4], 10) || 0 });
-            }
             if (recs.length === 0) {
                 msg.textContent = `No se encontró el CUIT ${fmtCuit(raw)} en el período ${_buscarPeriodo || ''}. (Solo aparecen deudores con crédito informado.)`;
                 return;
@@ -1776,19 +1805,11 @@
             const input = document.getElementById('buscar-input');
             btn.addEventListener('click', buscarCuit);
             input.addEventListener('keydown', e => { if (e.key === 'Enter') buscarCuit(); });
-            // período (desde meta.json del índice; si no está, queda con guion)
+            // período: en local sale del meta.json; online lo setea la API al primer buscar
             try {
                 const r = await fetch('cuit_index/meta.json');
-                if (r.ok) {
-                    const m = await r.json();
-                    const p = m.periodo; // AAAAMM
-                    if (p) {
-                        const meses = ['','Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'];
-                        _buscarPeriodo = `${meses[parseInt(p.slice(4,6),10)]} ${p.slice(0,4)}`;
-                        document.getElementById('buscar-periodo').textContent = _buscarPeriodo;
-                    }
-                }
-            } catch (e) { /* online: sin índice, se avisa al buscar */ }
+                if (r.ok) { const m = await r.json(); setPeriodo(m.periodo); }
+            } catch (e) { /* online: sin índice local, el período llega con la primera búsqueda */ }
         }
 
         function init() {
