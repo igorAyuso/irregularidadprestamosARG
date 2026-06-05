@@ -28,3 +28,5 @@ log_*.txt
 
 # Split por entidad: artefacto local regenerable (NO versionar, ~6.8GB)
 datos_por_entidad/
+24DSF*/
+24DSF_control.txt
