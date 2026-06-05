@@ -15,3 +15,13 @@ deudores.txt
 Maeent.txt
 *.xls
 *.xlsx
+
+# Carpetas de descarga del BCRA (data fuente, NO versionar)
+2*DEUDORES/
+Nomdeu.txt
+*.pdf
+*.7z
+*.7Z
+*.zip
+*.rar
+log_*.txt
