@@ -840,12 +840,122 @@
 
         <!-- Main Tabs -->
         <div class="tabs">
-            <button class="tab-button active" data-tab="familias">Familias</button>
+            <button class="tab-button active" data-tab="sistema">Total Sistema</button>
+            <button class="tab-button" data-tab="familias">Familias</button>
             <button class="tab-button" data-tab="empresas">Empresas</button>
         </div>
 
+        <!-- Total Sistema Tab (Familias + Empresas) -->
+        <div id="sistema" class="tab-content active">
+            <!-- KPI Cards -->
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-title">Sector Financiero</div>
+                    <div class="kpi-values">
+                        <div class="kpi-value-group">
+                            <div class="kpi-label">% por Monto</div>
+                            <div class="kpi-value" id="sis-fin-amt">-</div>
+                        </div>
+                        <div class="kpi-value-group">
+                            <div class="kpi-label">% por Cantidad</div>
+                            <div class="kpi-value" id="sis-fin-qty">-</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-title">Sector No Financiero</div>
+                    <div class="kpi-values">
+                        <div class="kpi-value-group">
+                            <div class="kpi-label">% por Monto</div>
+                            <div class="kpi-value" id="sis-nofin-amt">-</div>
+                        </div>
+                        <div class="kpi-value-group">
+                            <div class="kpi-label">% por Cantidad</div>
+                            <div class="kpi-value" id="sis-nofin-qty">-</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Time Series Chart -->
+            <div class="chart-section">
+                <div class="chart-header">
+                    <div class="chart-title">Evolución de la Irregularidad — Total del Sistema · 24 meses</div>
+                    <div class="chart-toggle">
+                        <button class="toggle-button active" data-chart="sistema" data-metric="amt">Por Monto</button>
+                        <button class="toggle-button" data-chart="sistema" data-metric="qty">Por Cantidad</button>
+                    </div>
+                </div>
+                <div class="chart-legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #3b82f6;"></div>
+                        <span>Financiero</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background-color: #f59e0b;"></div>
+                        <span>No Financiero</span>
+                    </div>
+                </div>
+                <div class="chart-container" id="sistema-chart">
+                    <svg id="sistema-svg"></svg>
+                    <div class="chart-tooltip" id="sistema-tooltip"></div>
+                </div>
+            </div>
+
+            <!-- Month Selector -->
+            <div class="month-selector" id="sistema-month-selector"></div>
+
+            <!-- Bar Charts -->
+            <div class="bar-chart-grid">
+                <div class="bar-chart-section">
+                    <div class="bar-chart-title">Irregular por Monto</div>
+                    <div class="bar-chart" id="sistema-bars-amt"></div>
+                </div>
+                <div class="bar-chart-section">
+                    <div class="bar-chart-title">Irregular por Cantidad</div>
+                    <div class="bar-chart" id="sistema-bars-qty"></div>
+                </div>
+            </div>
+
+            <!-- Entity Table -->
+            <div class="table-section">
+                <div class="table-header">
+                    <div class="table-title">Detalle de Entidades — Total Sistema — Marzo 2026</div>
+                    <div class="table-tabs">
+                        <button class="table-tab-button active" data-table="sis_fin">Entidades Financieras</button>
+                        <button class="table-tab-button" data-table="sis_nofin">Entidades No Financieras</button>
+                    </div>
+                </div>
+                <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;">
+                    <div class="filter-toggle" id="sistema-filter-toggle">
+                        <button class="filter-btn active" data-filter="all">Todas</button>
+                        <button class="filter-btn" data-filter="exclude">Excluir compradores de deuda</button>
+                    </div>
+                    <input type="text" class="search-box" id="sistema-search" placeholder="Buscar por nombre de entidad...">
+                </div>
+                <div class="table-wrapper">
+                    <table id="sistema-table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th class="sortable" data-sort="name">Entidad <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable" data-sort="total_credit">Crédito Total (miles$) <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable" data-sort="irregular_credit">Crédito Irregular (miles$) <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable sort-active" data-sort="pct_irregular_amt">% Irreg. (monto) <span class="sort-arrow">▼</span></th>
+                                <th class="sortable" data-sort="total_records">Deudores Total <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable" data-sort="irregular_records">Deudores Irregular <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable" data-sort="pct_irregular_qty">% Irreg. (cant) <span class="sort-arrow">▲▼</span></th>
+                                <th class="sortable" data-sort="pct_of_sector">% del Sector <span class="sort-arrow">▲▼</span></th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
         <!-- Familias Tab -->
-        <div id="familias" class="tab-content active">
+        <div id="familias" class="tab-content">
             <!-- KPI Cards -->
             <div class="kpi-grid">
                 <div class="kpi-card">
@@ -1246,7 +1356,8 @@
             const kpisEl = document.getElementById('entity-modal-kpis');
 
             titleEl.textContent = entData.name;
-            subtitleEl.textContent = `Código: ${entData.code} | Sector: ${entData.sector === 'financiero' ? 'Financiero' : 'No Financiero'} | Tipo: ${tipo === 'familia' ? 'Familias' : 'Empresas'}`;
+            const tipoLabel = { familia: 'Familias', empresa: 'Empresas', sistema: 'Total Sistema' }[tipo] || tipo;
+            subtitleEl.textContent = `Código: ${entData.code} | Sector: ${entData.sector === 'financiero' ? 'Financiero' : 'No Financiero'} | Tipo: ${tipoLabel}`;
 
             // Latest month data (index 23 = Jan 2026)
             const latest = entData.months[23];
@@ -1459,8 +1570,97 @@
         }
 
         // Initialize
+        // Deriva la categoría "Total Sistema" (= Familias + Empresas) a partir de la
+        // data ya embebida. No requiere reprocesar: suma fam+emp en serie, por entidad
+        // (tabla) y en la serie histórica por entidad (modal). Se recalcula al cargar,
+        // por lo que queda consistente automáticamente al agregar un mes nuevo.
+        function deriveSistema() {
+            const pct = (ic, tc) => tc > 0 ? Math.round(ic / tc * 100 * 100) / 100 : 0;
+            const r1 = (x) => Math.round(x * 10) / 10;
+
+            // --- 1) Serie agregada: sis_fin_* y sis_nofin_* ---
+            for (const e of seriesData.series) {
+                for (const sec of ['fin', 'nofin']) {
+                    const tc = (e[`fam_${sec}_tc`] || 0) + (e[`emp_${sec}_tc`] || 0);
+                    const ic = (e[`fam_${sec}_ic`] || 0) + (e[`emp_${sec}_ic`] || 0);
+                    const tr = (e[`fam_${sec}_tr`] || 0) + (e[`emp_${sec}_tr`] || 0);
+                    const ir = (e[`fam_${sec}_ir`] || 0) + (e[`emp_${sec}_ir`] || 0);
+                    e[`sis_${sec}_tc`] = r1(tc); e[`sis_${sec}_ic`] = r1(ic);
+                    e[`sis_${sec}_tr`] = tr;     e[`sis_${sec}_ir`] = ir;
+                    e[`sis_${sec}_amt`] = pct(ic, tc);
+                    e[`sis_${sec}_qty`] = tr > 0 ? Math.round(ir / tr * 100 * 100) / 100 : 0;
+                }
+            }
+
+            // --- 2) Tabla por entidad: entityData.sistema_financiero / sistema_no_financiero ---
+            for (const sec of ['financiero', 'no_financiero']) {
+                const fam = (entityData[`familia_${sec}`] || {}).entities || [];
+                const emp = (entityData[`empresa_${sec}`] || {}).entities || [];
+                const byCode = new Map();
+                const addAll = (list) => {
+                    for (const x of list) {
+                        let m = byCode.get(x.code);
+                        if (!m) { m = { code: x.code, name: x.name, tc: 0, ic: 0, tr: 0, ir: 0 }; byCode.set(x.code, m); }
+                        m.tc += x.total_credit || 0; m.ic += x.irregular_credit || 0;
+                        m.tr += x.total_records || 0; m.ir += x.irregular_records || 0;
+                        if (!m.name && x.name) m.name = x.name;
+                    }
+                };
+                addAll(fam); addAll(emp);
+                let totTc = 0;
+                for (const m of byCode.values()) totTc += m.tc;
+                const entities = [];
+                for (const m of byCode.values()) {
+                    entities.push({
+                        code: m.code, name: m.name,
+                        total_credit: r1(m.tc), irregular_credit: r1(m.ic),
+                        pct_irregular_amt: pct(m.ic, m.tc),
+                        total_records: m.tr, irregular_records: m.ir,
+                        pct_irregular_qty: m.tr > 0 ? Math.round(m.ir / m.tr * 100 * 100) / 100 : 0,
+                        pct_of_sector: totTc > 0 ? Math.round(m.tc / totTc * 100 * 100) / 100 : 0,
+                    });
+                }
+                entities.sort((a, b) => b.total_credit - a.total_credit);
+                entityData[`sistema_${sec}`] = { entities };
+            }
+
+            // --- 3) Serie histórica por entidad: <code>_sistema (para el modal) ---
+            const codes = new Set();
+            for (const key of Object.keys(entitySeriesData)) {
+                const m = key.match(/^(\d+)_(familia|empresa)$/);
+                if (m) codes.add(m[1]);
+            }
+            for (const code of codes) {
+                const fam = entitySeriesData[`${code}_familia`];
+                const emp = entitySeriesData[`${code}_empresa`];
+                const ref = fam || emp;
+                if (!ref) continue;
+                const nMonths = ref.months.length;
+                const months = [];
+                for (let i = 0; i < nMonths; i++) {
+                    const f = fam ? fam.months[i] : null;
+                    const e = emp ? emp.months[i] : null;
+                    const tc = (f ? f[0] : 0) + (e ? e[0] : 0);
+                    const ic = (f ? f[1] : 0) + (e ? e[1] : 0);
+                    const tr = (f ? f[2] : 0) + (e ? e[2] : 0);
+                    const ir = (f ? f[3] : 0) + (e ? e[3] : 0);
+                    months.push([
+                        r1(tc), r1(ic), tr, ir,
+                        pct(ic, tc),
+                        tr > 0 ? Math.round(ir / tr * 100 * 100) / 100 : 0,
+                    ]);
+                }
+                entitySeriesData[`${code}_sistema`] = {
+                    code: ref.code, name: ref.name, sector: ref.sector,
+                    tipo: 'sistema', months,
+                };
+            }
+        }
+
         function init() {
+            deriveSistema();
             initTabs();
+            initSistemaTab();
             initFamiliasTab();
             initEmpresasTab();
 
@@ -1485,6 +1685,23 @@
                     document.getElementById(tabName).classList.add('active');
                 });
             });
+        }
+
+        function initSistemaTab() {
+            const latestIdx = seriesData.series.length - 1;
+            const latest = seriesData.series[latestIdx];
+
+            // KPIs
+            document.getElementById('sis-fin-amt').textContent = formatPercent(latest.sis_fin_amt);
+            document.getElementById('sis-fin-qty').textContent = formatPercent(latest.sis_fin_qty);
+            document.getElementById('sis-nofin-amt').textContent = formatPercent(latest.sis_nofin_amt);
+            document.getElementById('sis-nofin-qty').textContent = formatPercent(latest.sis_nofin_qty);
+
+            initMonthSelector('sistema', latestIdx);
+            initChart('sistema', 'sis');
+            initToggleButtons('sistema', 'sis');
+            updateBarCharts('sistema', latest, 'sis');
+            initTable('sistema', 'sis_fin');
         }
 
         function initFamiliasTab() {
@@ -1550,7 +1767,7 @@
                     this.classList.add('active');
 
                     const data = seriesData.series[idx];
-                    const prefix = tabName === 'familias' ? 'fam' : 'emp';
+                    const prefix = { sistema: 'sis', familias: 'fam', empresas: 'emp' }[tabName];
 
                     // Update KPIs
                     document.getElementById(`${prefix}-fin-amt`).textContent = formatPercent(data[`${prefix}_fin_amt`]);
@@ -1931,6 +2148,8 @@
                 else if (tableType === 'fam_nofin') entities = entityData.familia_no_financiero.entities.slice();
                 else if (tableType === 'emp_fin') entities = entityData.empresa_financiero.entities.slice();
                 else if (tableType === 'emp_nofin') entities = entityData.empresa_no_financiero.entities.slice();
+                else if (tableType === 'sis_fin') entities = entityData.sistema_financiero.entities.slice();
+                else if (tableType === 'sis_nofin') entities = entityData.sistema_no_financiero.entities.slice();
 
                 // Apply filter based on toggle
                 if (filterMode === 'exclude') {
@@ -1954,7 +2173,7 @@
                 tbody.innerHTML = '';
                 entities.forEach((e, idx) => {
                     const row = document.createElement('tr');
-                    const tipo = (tableType.includes('fam')) ? 'familia' : 'empresa';
+                    const tipo = tableType.startsWith('sis') ? 'sistema' : (tableType.includes('fam') ? 'familia' : 'empresa');
                     const entKey = e.code.padStart(5, '0') + '_' + tipo;
                     const hasHistory = !!entitySeriesData[entKey];
                     if (hasHistory) {
