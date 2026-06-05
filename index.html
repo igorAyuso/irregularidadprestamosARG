@@ -1688,6 +1688,17 @@
                     document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
                     this.classList.add('active');
                     document.getElementById(tabName).classList.add('active');
+
+                    // Redibujar el gráfico ahora que el tab es visible (tiene ancho > 0).
+                    // Sin esto, los charts de tabs ocultos al cargar quedan en 0x0.
+                    const prefix = { sistema: 'sis', familias: 'fam', empresas: 'emp' }[tabName];
+                    if (prefix) {
+                        // reset del toggle a "Por Monto" para que coincida con lo dibujado
+                        document.querySelectorAll(`.chart-toggle [data-chart="${tabName}"]`).forEach(b => b.classList.remove('active'));
+                        const amtBtn = document.querySelector(`.chart-toggle [data-chart="${tabName}"][data-metric="amt"]`);
+                        if (amtBtn) amtBtn.classList.add('active');
+                        initChart(tabName, prefix);
+                    }
                 });
             });
         }
@@ -1791,6 +1802,7 @@
         function initChart(tabName, prefix) {
             const svg = document.getElementById(`${tabName}-svg`);
             const container = document.getElementById(`${tabName}-chart`);
+            svg.innerHTML = ''; // idempotente: permite redibujar (p.ej. al activar el tab)
 
             const width = container.clientWidth;
             const height = container.clientHeight;
