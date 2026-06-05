@@ -1,9 +1,17 @@
 # Local processing logs
 log_24dsf.txt
 log_split.txt
+*.log
 
 # Local dev preview config
 .claude/
 
 # Intermediate per-period data outputs
 data_v4_*.json
+
+# Archivos fuente pesados del BCRA (NO versionar: 6.9GB / 23GB)
+deudores.txt
+24DSF.txt
+Maeent.txt
+*.xls
+*.xlsx
