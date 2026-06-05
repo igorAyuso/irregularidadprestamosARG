@@ -30,3 +30,6 @@ log_*.txt
 datos_por_entidad/
 24DSF*/
 24DSF_control.txt
+
+# Indice por CUIT (buscador): local, regenerable
+cuit_index/
